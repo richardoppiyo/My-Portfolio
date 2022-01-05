@@ -6,6 +6,8 @@ body {
 }
 
 .app-wrap {
+  display: flex;
+  flex-direction: column;
   max-width: 375px;
   height: 90vh;
   margin: 5vh auto 5vh auto;
@@ -17,7 +19,6 @@ body {
   width: 90px;
   height: 28px;
   padding-left: 5%;
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -29,11 +30,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.app-wrap {
-  display: flex;
-  flex-direction: column;
 }
 
 /*
