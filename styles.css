@@ -1,3 +1,54 @@
-.heading {
+/* .heading {
   background-color: #b7e9f7;
+} */
+body {
+  background: #b7e9f7
 }
+
+
+
+.app-wrap {
+  /* display: flex; */
+  max-width: 375px;
+  height: 90vh;
+  margin: 5vh auto 5vh auto;
+  /* border: 3px solid black; */
+  border-radius: 15px;
+  background: #ffffff;
+
+}
+.app-header h1 {
+  width: 90px;
+ height: 28px;
+ padding-left: 5%;
+ font-family: Inter;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 20px;
+ line-height: 28px;
+ color: #28352f;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+/* align-items: center; */
+  /* text-align: center; */
+
+  /* font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px; */
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+
+}
+/*
+ .app-wrap > * {
+  flex:1 1 auto;
+} */
