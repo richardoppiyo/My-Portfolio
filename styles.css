@@ -5,8 +5,6 @@ body {
   background: #b7e9f7
 }
 
-
-
 .app-wrap {
   /* display: flex; */
   max-width: 375px;
@@ -14,9 +12,9 @@ body {
   margin: 5vh auto 5vh auto;
   /* border: 3px solid black; */
   border-radius: 15px;
-  background: #ffffff;
-
+  background: #fff;
 }
+
 .app-header h1 {
   width: 90px;
  height: 28px;
@@ -33,21 +31,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-/* align-items: center; */
-  /* text-align: center; */
-
-  /* font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px; */
 }
 
 .app-wrap {
   display: flex;
   flex-direction: column;
-
 }
+
 /*
  .app-wrap > * {
   flex:1 1 auto;
