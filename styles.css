@@ -51,6 +51,16 @@ hr {
   text-align: center;
 }
 
+.aboutme-title p {
+  display: flex;
+  height: 189px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin: 6px auto;
+}
+
 .primary p:last-child,
 h1 {
   display: flex;
@@ -238,17 +248,6 @@ h1 {
   text-align: center;
 }
 
-.aboutme-title p{
-  display: flex;
-  height: 189px;
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  margin: 6px auto;
-}
-
 .for-about-button {
   display: flex;
   align-items: center;
@@ -268,7 +267,6 @@ h1 {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  /* margin-bottom: 15px; */
   height: 48px;
   min-width: 135px;
   border-radius: 4px;
@@ -291,8 +289,8 @@ ul {
 
 }
 .top-skill {
-  background: #EBF0EE;
-  border: 1px solid #EBF0EE;
+  background: #ebf0ee;
+  border: 1px solid #ebf0ee;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -313,7 +311,6 @@ li img {
 .skill-title p {
   display: flex;
   margin: 20px auto auto auto;
-  /* width: 337px; */
   height: 32px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -349,7 +346,7 @@ li img {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  background: #FFFFFF;
+  background: #fff;
   min-width: 45px;
   border-radius: 8px;
   margin: 0 3px 0 3px;
@@ -360,7 +357,7 @@ li img {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  background: #FFFFFF;
+  background: #fff;
   min-width: 78px;
   border-radius: 8px;
   margin: 0 3px 0 3px;
@@ -368,14 +365,13 @@ li img {
 
 .container-skill-element a,
 .container-skill-element-mid a {
-  /* min-width: 45px; */
   height: 16px;
   font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-letter-spacing: 0.03em;
-line-height: 16px;
-color: #36b37e;
-text-decoration: none;;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  color: #36b37e;
+  text-decoration: none;
 }
