@@ -32,8 +32,8 @@ body {
   justify-content: space-between;
 }
 
-.primary h4{
-  display:  flex;
+.primary h4 {
+  display: flex;
   justify-content: space-around;
   flex-direction: column;
   width: 327px;
@@ -41,9 +41,7 @@ body {
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 0em;
-  font-style: normal;
-  font-weight: bold;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -61,19 +59,19 @@ body {
 }
 
 .social {
-    margin: 10px;
+  margin: 10px;
 }
 
 .support {
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: center;
-color: #000;
-padding: 0 40px;
-margin: 20px 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+  padding: 0 40px;
+  margin: 20px 0;
 }
 
 .for_background {
