@@ -19,7 +19,7 @@ body {
   width: 90px;
   height: 28px;
   font-family: 'Inter', sans-serif;
-  padding-right:20%;
+  padding-right: 20%;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -34,15 +34,14 @@ body {
   margin-top: 30px;
 }
 
-.primary p:last-child,h1 {
+.primary p:last-child, h1 {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   width: 327px;
   margin: 10px 30px 0 30px;
   font-size: 40px;
-  /* font-style: bold; */
-  font-weight: bold 900;
+  font-weight: 900;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0;
   text-align: center;
@@ -63,7 +62,7 @@ body {
 
 .social {
   margin: 10px;
-  color: #505F79;
+  color: #505f79;
   font-size: 25px;
 }
 
@@ -88,14 +87,14 @@ body {
   display: flex;
   justify-content: center;
   margin: 25px;
-
 }
 
-.arrow-button{
+.arrow-button {
   background-color: #fff;
   border-radius: 32px;
   border: none;
 }
+
 .arrow-button:hover {
   border-color: #dfe1e6;
   border: 1px solid;
