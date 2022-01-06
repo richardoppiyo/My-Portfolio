@@ -8,9 +8,10 @@ hr {
   width: 48px;
   border-radius: 24px;
   background-color: #36b37e;
-  color:  #36b37e;
+  color: #36b37e;
   margin-bottom: 24px;
 }
+
 .app-wrap {
   display: flex;
   flex-direction: column;
@@ -197,9 +198,7 @@ h1 {
   height: 48px;
   width: 122px;
   border-radius: 4px;
-  padding: 12px;
   background: #36b37f;
-  border-radius: 4px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
