@@ -61,6 +61,21 @@ hr {
   margin: 6px auto;
 }
 
+.skill-title p {
+  display: flex;
+  margin: 20px auto auto auto;
+  height: 32px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+  padding: 5px;
+}
+
 .primary p:last-child,
 h1 {
   display: flex;
@@ -133,7 +148,6 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-row: auto auto auto auto;
   grid-gap: 10px;
   margin: 24px 0;
 }
@@ -226,13 +240,13 @@ h1 {
   width: 315px;
 }
 
-.aboutme-title{
+.aboutme-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 351px;
   text-align: center;
-  background-image: url('images/about-me-mobile.png'),url('images/about-me-mobile_1.png');
+  background-image: url('images/about-me-mobile.png'), url('images/about-me-mobile_1.png');
   background-repeat: no-repeat;
   background-position: left bottom, right top;
 }
@@ -253,8 +267,7 @@ h1 {
   align-items: center;
   text-align: center;
   height: 24px;
-  font-family: Inter;
-  font-style: normal;
+  ont-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -286,8 +299,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-
 }
+
 .top-skill {
   background: #ebf0ee;
   border: 1px solid #ebf0ee;
@@ -306,21 +319,6 @@ li img {
   display: flex;
   width: 80px;
   height: 80px;
-}
-
-.skill-title p {
-  display: flex;
-  margin: 20px auto auto auto;
-  height: 32px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  align-items: center;
-  text-align: center;
-  color: #344563;
-  padding: 5px;
 }
 
 .container-skill {
@@ -366,8 +364,7 @@ li img {
 .container-skill-element a,
 .container-skill-element-mid a {
   height: 16px;
-  font-family: Inter;
-  font-style: normal;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.03em;
