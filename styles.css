@@ -67,7 +67,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: center;
   color: #000;
   padding: 0 40px;
@@ -80,7 +79,7 @@ body {
   background-size: 375px auto;
 }
 
-.arrow{
+.arrow {
   display: flex;
   justify-content: center;
   margin: 25px;
