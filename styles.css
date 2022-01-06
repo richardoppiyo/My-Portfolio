@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 375px;
-  height: 90vh;
+  height: 130vh;
   margin: 5vh auto 5vh auto;
   border-radius: 15px;
   background: #fff;
@@ -36,3 +36,71 @@ body {
  .app-wrap > * {
   flex:1 1 auto;
 } */
+
+/* .headline h2{
+  display-direction: column;
+} */
+.primary h4:first-child {
+  margin-top: 58px;
+}
+
+.primary h4:last-child {
+  color: #3cb371;
+}
+.primary h4{
+  display:  flex;
+  /* border: 10px solid black; */
+  justify-content: space-around;
+  flex-direction: column;
+  width: 327px;
+  /* min-height : 10vh; */
+  margin: 10px 30px 0 30px;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+/* line-height: 45px; */
+letter-spacing: 0em;
+font-style: normal;
+font-weight: bold;
+/* font-size: 40px; */
+/* line-height: 52px; */
+text-align: center;
+
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+
+}
+.social {
+    margin: 10px;
+}
+
+.support {
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #000;
+padding: 0 40px;
+margin: 20px 0;
+}
+
+.for_background {
+  background-image: url('images/mobile.png');
+  background-repeat: no-repeat;
+  background-size: 375px auto;
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.arrow-button:hover {
+  border-color: blue;
+}
