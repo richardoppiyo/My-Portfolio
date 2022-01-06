@@ -15,10 +15,11 @@ body {
   background: #fff;
 }
 
-.app-header h1 {
+.app-header a {
   width: 90px;
   height: 28px;
-  padding-left: 5%;
+  font-family: 'Inter', sans-serif;
+  padding-right:20%;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -29,27 +30,29 @@ body {
 .app-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
-.primary h4 {
+.primary p:last-child,h1 {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   width: 327px;
   margin: 10px 30px 0 30px;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
+  font-size: 40px;
+  /* font-style: bold; */
+  font-weight: bold 900;
+  font-family: 'Inter', sans-serif;
   letter-spacing: 0;
   text-align: center;
 }
 
-.primary h4:first-child {
+.primary h1:first-child {
   margin-top: 58px;
 }
 
-.primary h4:last-child {
+.primary p:last-child {
   color: #3cb371;
 }
 
@@ -60,6 +63,8 @@ body {
 
 .social {
   margin: 10px;
+  color: #505F79;
+  font-size: 25px;
 }
 
 .support {
@@ -73,7 +78,7 @@ body {
   margin: 20px 0;
 }
 
-.for_background {
+.headline {
   background-image: url('images/mobile.png');
   background-repeat: no-repeat;
   background-size: 375px auto;
@@ -83,8 +88,16 @@ body {
   display: flex;
   justify-content: center;
   margin: 25px;
+
 }
 
+.arrow-button{
+  background-color: #fff;
+  border-radius: 32px;
+  border: none;
+}
 .arrow-button:hover {
-  border-color: blue;
+  border-color: #dfe1e6;
+  border: 1px solid;
+  border-radius: 10px;
 }
