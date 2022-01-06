@@ -38,6 +38,19 @@ hr {
   justify-content: space-around;
 }
 
+.container-title p {
+  display: flex;
+  margin: 20px auto auto auto;
+  height: 57px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+}
+
 .primary p:last-child,
 h1 {
   display: flex;
@@ -53,19 +66,6 @@ h1 {
 
 .primary h1:first-child {
   margin-top: 58px;
-}
-
-.container-title p {
-  display: flex;
-  margin: 20px auto auto auto;
-  height: 57px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  align-items: center;
-  text-align: center;
 }
 
 .primary p:last-child {
