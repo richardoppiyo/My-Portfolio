@@ -179,7 +179,6 @@ h1 {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin: 15px 0 0 20px;
-  /* padding-right: 20px; */
   font-size: 30px;
   align-items: center;
   align-content: space-around;
@@ -352,13 +351,13 @@ ul {
 .container-btn:hover {
   background-color: #36b37e;
   border: 1px solid #000;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   transform: scale(0.9);
 }
 
 .about-btn:hover {
   background-color: #36b37e;
   border: 1px solid #000;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   transform: scale(0.9);
 }
