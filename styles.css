@@ -15,7 +15,7 @@ hr {
 .app-wrap {
   display: flex;
   flex-direction: column;
-  max-width: 375px;
+  max-width: 327px;
   background: #fff;
   z-index: 1;
 }
@@ -38,7 +38,7 @@ hr {
   justify-content: space-around;
 }
 
-.container-title p {
+.container-title h4 {
   display: flex;
   margin: 20px auto auto auto;
   height: 57px;
@@ -123,7 +123,7 @@ h1 {
 .headline {
   background-image: url('images/mobile.png');
   background-repeat: no-repeat;
-  background-size: 375px auto;
+  background-size: 327px auto;
 }
 
 .arrow {
@@ -149,15 +149,19 @@ h1 {
 .grid-container {
   display: grid;
   grid-gap: 10px;
-  margin: 24px 0;
+}
+
+.work-intro {
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  text-align: center;
+  align-items: center;
 }
 
 .grid-container h3 {
   display: flex;
   height: 97px;
-  max-width: 327px;
-  align-items: center;
-  justify-content: center;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   line-height: 52px;
@@ -170,10 +174,12 @@ h1 {
   flex-direction: column;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  margin: 15px 20px 0 20px;
+  margin: 15px 0 0 20px;
+  padding-right: 20px
   font-size: 30px;
   align-items: center;
   align-content: space-around;
+  max-width: 327px;
   min-height: 200px;
 }
 
@@ -185,7 +191,7 @@ h1 {
 
 .container-projects {
   display: flex;
-  min-height: 60px;
+  min-height: 40px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -194,42 +200,43 @@ h1 {
 .container-projects-element {
   display: flex;
   flex-direction: row;
-  background-color: #ebf0ee;
-  align-items: center;
   text-align: center;
   justify-content: space-around;
-  min-width: 45px;
-  border-radius: 4px;
-  margin: 0 5px 0 5px;
-  padding: 5px;
+   min-width: 45px;
 }
 
-.container-projects-element a {
-  flex-grow: 0;
+.container-projects-element li {
+  display: flex;
   font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #3a4a42;
+  background-color: #ebf0ee;
+  min-height: 20px;
+  min-width: 10px;
+  border-radius: 4px;
+  margin: 0 5px 0 5px;
+  padding: 6px 10px 1px 10px;
 }
 
 .container-btn {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   margin-bottom: 15px;
-  height: 48px;
+  min-height: 40px;
   width: 122px;
   border-radius: 4px;
   background: #36b37f;
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 .about-me {
@@ -244,7 +251,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 351px;
+  width: 327px;
   text-align: center;
   background-image: url('images/about-me-mobile.png'), url('images/about-me-mobile_1.png');
   background-repeat: no-repeat;
@@ -252,7 +259,7 @@ h1 {
 }
 
 .aboutme-title h3 {
-  margin: 0 auto 20px auto;
+  margin: 0 5px 20px 5px;
   display: flex;
   height: 48px;
   font-family: 'Inter', sans-serif;
@@ -301,7 +308,7 @@ ul {
   list-style-type: none;
 }
 
-.top-skill {
+.about-container {
   background: #ebf0ee;
   border: 1px solid #ebf0ee;
   display: flex;
@@ -315,60 +322,25 @@ ul {
   margin-top: 15px;
 }
 
-li img {
+.container-projects-skill {
   display: flex;
-  width: 80px;
-  height: 80px;
-}
-
-.container-skill {
-  display: flex;
-  min-height: 60px;
   flex-direction: row;
-  align-items: center;
+  text-align: center;
   justify-content: space-around;
-  margin: 20px 10px;
-}
-
-.container-skill-2 {
-  display: flex;
-  min-height: 20px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: 0 10px;
-}
-
-.container-skill-element {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  background: #fff;
   min-width: 45px;
-  border-radius: 8px;
-  margin: 0 3px 0 3px;
 }
 
-.container-skill-element-mid {
+.container-projects-skill li {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  background: #fff;
-  min-width: 78px;
-  border-radius: 8px;
-  margin: 0 3px 0 3px;
-}
-
-.container-skill-element a,
-.container-skill-element-mid a {
-  height: 16px;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
   font-size: 12px;
-  letter-spacing: 0.03em;
-  line-height: 16px;
+  font-weight: 600;
+  text-align: center;
   color: #36b37e;
-  text-decoration: none;
+  background-color: #fff;
+  min-height: 20px;
+  min-width: 10px;
+  border-radius: 4px;
+  margin: 0 0 0 5px;
+  padding: 6px 10px 1px 10px;
 }
