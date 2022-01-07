@@ -344,3 +344,9 @@ ul {
   margin: 0 0 0 5px;
   padding: 6px 10px 1px 10px;
 }
+
+input[type=button]:hover,
+:active {
+  background-color: #36b37e;
+  border: 1px solid #000;
+}
