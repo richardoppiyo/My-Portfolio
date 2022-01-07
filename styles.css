@@ -202,7 +202,7 @@ h1 {
   flex-direction: row;
   text-align: center;
   justify-content: space-around;
-   min-width: 45px;
+  min-width: 45px;
 }
 
 .container-projects-element li {
