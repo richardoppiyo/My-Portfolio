@@ -102,6 +102,10 @@ h1 {
   justify-content: center;
 }
 
+.item-image {
+  width: 100%;
+}
+
 .social {
   margin: 10px;
   color: #505f79;
@@ -175,11 +179,11 @@ h1 {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin: 15px 0 0 20px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
   font-size: 30px;
   align-items: center;
   align-content: space-around;
-  max-width: 327px;
+  max-width: 300px;
   min-height: 200px;
 }
 
@@ -345,8 +349,16 @@ ul {
   padding: 6px 10px 1px 10px;
 }
 
-input[type=button]:hover,
-:active {
+.container-btn:hover {
   background-color: #36b37e;
   border: 1px solid #000;
+  transition: .2s ease-in-out;
+  transform: scale(0.9);
+}
+
+.about-btn:hover {
+  background-color: #36b37e;
+  border: 1px solid #000;
+  transition: .2s ease-in-out;
+  transform: scale(0.9);
 }
