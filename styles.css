@@ -15,7 +15,7 @@ hr {
 .app-wrap {
   display: flex;
   flex-direction: column;
-  max-width: 327px;
+  max-width: 360px;
   background: #fff;
   z-index: 1;
 }
@@ -58,7 +58,7 @@ hr {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  margin: 6px auto;
+  margin: 6px o;
 }
 
 .skill-title p {
@@ -127,7 +127,7 @@ h1 {
 .headline {
   background-image: url('images/mobile.png');
   background-repeat: no-repeat;
-  background-size: 327px auto;
+  background-size: 100%;
 }
 
 .arrow {
@@ -158,7 +158,7 @@ h1 {
 .work-intro {
   display: flex;
   flex-direction: column;
-  width: 315px;
+  width: 327px;
   text-align: center;
   align-items: center;
 }
@@ -182,7 +182,7 @@ h1 {
   font-size: 30px;
   align-items: center;
   align-content: space-around;
-  max-width: 300px;
+  max-width: 327px;
   min-height: 200px;
 }
 
