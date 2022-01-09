@@ -104,6 +104,7 @@ h1 {
 
 .item-image {
   width: 100%;
+  height: inherit;
 }
 
 .social {
