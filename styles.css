@@ -391,8 +391,9 @@ ul {
 .contact-form {
   padding: 0 24px;
   background-image: url('./images/Frame.png');
-  background-position: 100% 80%;
+  background-position: 100% 70%;
   background-repeat: no-repeat;
+  width: 327px;
 }
 
 .contact-form h2 {
@@ -412,9 +413,19 @@ footer a {
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
-  color: #42526E;
+  color: #42526e;
 }
 
 footer a p {
   padding-bottom: 147px;
+}
+
+.contact-form hr {
+  display: flex;
+  height: 4px;
+  width: 55%;
+  border-radius: 24px;
+  background-color: #42526e;;
+  color: #42526e;
+  margin: 49px auto 24px auto;
 }
