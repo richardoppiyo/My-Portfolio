@@ -286,7 +286,8 @@ h1 {
   border-radius: 4px;
 }
 
-.about-btn {
+.about-btn,
+.contact-form-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -356,7 +357,9 @@ ul {
   transform: scale(0.9);
 }
 
-.about-btn:hover {
+.about-btn:hover,
+.contact-form-btn:hover {
+  cursor: pointer;
   background-color: #36b37e;
   border: 1px solid #000;
   transition: 0.2s ease-in-out;
@@ -383,4 +386,35 @@ ul {
   padding: 12px;
   border-radius: 4px;
   border: 1px solid #36B37F;
+}
+
+.contact-form {
+  padding: 0 24px;
+  background-image: url('./images/Frame.png');
+  background-position: 100% 80%;
+  background-repeat: no-repeat;
+}
+
+.contact-form h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0 24px;
+}
+
+footer a {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526E;
+}
+
+footer a p {
+  padding-bottom: 147px;
 }
