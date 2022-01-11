@@ -20,6 +20,16 @@ hr {
   z-index: 1;
 }
 
+footer a {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
 .app-header a {
   width: 90px;
   height: 28px;
@@ -74,6 +84,10 @@ hr {
   text-align: center;
   color: #344563;
   padding: 5px;
+}
+
+footer a p {
+  padding-bottom: 147px;
 }
 
 .primary p:last-child,
@@ -377,7 +391,7 @@ ul {
 #full-name,
 #email {
   padding: 15px 16px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
 
@@ -385,7 +399,7 @@ ul {
   height: 114px;
   padding: 12px;
   border-radius: 4px;
-  border: 1px solid #36B37F;
+  border: 1px solid #36b37f;
 }
 
 .contact-form {
@@ -404,20 +418,6 @@ ul {
   line-height: 52px;
   text-align: center;
   padding: 0 24px;
-}
-
-footer a {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  color: #42526e;
-}
-
-footer a p {
-  padding-bottom: 147px;
 }
 
 .contact-form hr {
