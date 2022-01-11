@@ -362,3 +362,25 @@ ul {
   transition: 0.2s ease-in-out;
   transform: scale(0.9);
 }
+
+.contact-form form > * {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 24px;
+  border: none;
+}
+
+#full-name,
+#email {
+  padding: 15px 16px;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+}
+
+#message {
+  height: 114px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #36B37F;
+}
