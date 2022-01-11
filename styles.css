@@ -61,6 +61,10 @@ footer a {
   text-align: center;
 }
 
+footer a p {
+  padding-bottom: 147px;
+}
+
 .aboutme-title p {
   display: flex;
   height: 189px;
@@ -84,10 +88,6 @@ footer a {
   text-align: center;
   color: #344563;
   padding: 5px;
-}
-
-footer a p {
-  padding-bottom: 147px;
 }
 
 .primary p:last-child,
@@ -425,7 +425,7 @@ ul {
   height: 4px;
   width: 55%;
   border-radius: 24px;
-  background-color: #42526e;;
+  background-color: #42526e;
   color: #42526e;
   margin: 49px auto 24px auto;
 }
