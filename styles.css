@@ -20,6 +20,16 @@ hr {
   z-index: 1;
 }
 
+footer a {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
 .app-header a {
   width: 90px;
   height: 28px;
@@ -49,6 +59,10 @@ hr {
   line-height: 32px;
   align-items: center;
   text-align: center;
+}
+
+footer a p {
+  padding-bottom: 147px;
 }
 
 .aboutme-title p {
@@ -286,7 +300,8 @@ h1 {
   border-radius: 4px;
 }
 
-.about-btn {
+.about-btn,
+.contact-form-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -356,9 +371,61 @@ ul {
   transform: scale(0.9);
 }
 
-.about-btn:hover {
+.about-btn:hover,
+.contact-form-btn:hover {
+  cursor: pointer;
   background-color: #36b37e;
   border: 1px solid #000;
   transition: 0.2s ease-in-out;
   transform: scale(0.9);
+}
+
+.contact-form form > * {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 24px;
+  border: none;
+}
+
+#full-name,
+#email {
+  padding: 15px 16px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+#message {
+  height: 114px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #36b37f;
+}
+
+.contact-form {
+  padding: 0 24px;
+  background-image: url('./images/Frame.png');
+  background-position: 100% 70%;
+  background-repeat: no-repeat;
+  width: 327px;
+}
+
+.contact-form h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.contact-form hr {
+  display: flex;
+  height: 4px;
+  width: 55%;
+  border-radius: 24px;
+  background-color: #42526e;
+  color: #42526e;
+  margin: 49px auto 24px auto;
 }

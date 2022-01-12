@@ -2,6 +2,11 @@
 
 > This is a project to build my portfolio.
 
+![screenshot](./images/a.png)
+![screenshot](./images/b.png)
+![screenshot](./images/c.png)
+
+
 ## Built With
 
 - HTML
@@ -17,7 +22,7 @@
 - LinkedIn: [LinkedIn](https://linkedin.com/in/richardoppiyo)
 
 
-## To show your support, kindly 
+## To show your support, kindly
 
 Give a ⭐️ if you like this project!
 
