@@ -143,7 +143,7 @@ h1 {
   background-image: url('images/mobile.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .arrow {
@@ -180,30 +180,30 @@ h1 {
 }
 
 @media screen and (min-width: 992px) {
-      .app-wrap {
-        display: flex;
-        flex-direction: column;
-      }
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+  }
 
-      .app-header {
-        display: none;
-      }
+  .app-header {
+    display: none;
+  }
 
-     .headline {
-       background-image: url('images/desktop-head.png');
-       background-position: 100% 5%;
-       display: flex;
-       flex-direction:column;
-       align-items: center;
-     }
-     .primary {
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 800;
-      font-size: 48px;
-      line-height: 60px;
-      margin: 20px 0 0 0;
-     }
+  .headline {
+    background-image: url('images/desktop-head.png');
+    background-position: 100% 5%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .primary {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 20px 0 0 0;
+  }
 
 
      .primary h1:first-child {
