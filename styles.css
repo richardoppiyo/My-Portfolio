@@ -15,7 +15,7 @@ hr {
 .app-wrap {
   display: flex;
   flex-direction: column;
-  max-width: 360px;
+  width: 100%;
   background: #fff;
   z-index: 1;
 }
@@ -46,6 +46,7 @@ footer a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  max-width: 940px;
 }
 
 .container-title h4 {
@@ -67,7 +68,6 @@ footer a p {
 
 .aboutme-title p {
   display: flex;
-  height: 189px;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   line-height: 32px;
@@ -95,7 +95,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 327px;
+  width: 100%;
   font-size: 40px;
   font-weight: 900;
   font-family: 'Inter', sans-serif;
@@ -143,6 +143,7 @@ h1 {
   background-image: url('images/mobile.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 100%
 }
 
 .arrow {
@@ -165,6 +166,74 @@ h1 {
   border-radius: 10px;
 }
 
+.desktop-show {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.desktop-show a {
+  margin: 15px 0 15px 15px;
+  text-decoration: none;
+  color: #505f79;
+  font-family: 'Inter', sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+      .app-wrap {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .app-header {
+        display: none;
+      }
+
+     .headline {
+       background-image: url('images/desktop-head.png');
+       background-position: 100% 5%;
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+     }
+     .primary {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 60px;
+      margin: 20px 0 0 0;
+     }
+
+
+     .primary h1:first-child {
+       margin-bottom: 0;
+     }
+
+     .primary p:last-child {
+       color: #3cb371;
+       margin: 0;
+     }
+     .support {
+       margin-top: 0;
+       padding: 0 50px 0 50px;
+       width: 590px;
+       height: 96px;
+     }
+
+    .arrow {
+      padding-bottom: 40px;
+      margin: 40px 0 150px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+  .desktop-show {
+    display: none;
+  }
+}
+
+
 .grid-container {
   display: grid;
   grid-gap: 10px;
@@ -173,17 +242,16 @@ h1 {
 .work-intro {
   display: flex;
   flex-direction: column;
-  width: 327px;
+  min-width: 327px;
   text-align: center;
   align-items: center;
+  margin: 0 20px 0 48px;
 }
 
 .grid-container h3 {
   display: flex;
-  height: 97px;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
-  line-height: 52px;
   text-align: center;
   color: #172b4d;
 }
@@ -197,7 +265,7 @@ h1 {
   font-size: 30px;
   align-items: center;
   align-content: space-around;
-  max-width: 327px;
+  width: 327px;
   min-height: 200px;
 }
 
@@ -257,19 +325,62 @@ h1 {
   line-height: 20px;
 }
 
+ @media screen and (min-width: 992px) {
+
+     hr{
+     display: none;
+     }
+
+    .grid-container {
+       display: grid;
+       grid-template-columns: auto auto auto;
+       justify-content: center;
+       grid-gap: 20px;
+
+      }
+
+      .container {
+        margin: 0;
+        width: auto;
+      }
+      .grid-container > section {
+       text-align: center;
+      }
+
+      .work-intro {
+       grid-column: 1 / span 3;
+       text-align: center;
+      }
+
+      .work-intro h3{
+       text-align: center;
+      }
+
+      .container-projects-element li {
+        font-size: 8px;
+      }
+
+      .work-intro {
+        margin-bottom: 0;
+      }
+ }
+
 .about-me {
-  display: flex;
+  display: grid;
+  grid-gap: 10px;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 24px;
-  width: 315px;
+  padding: 64px 24px; */
+  /* width: 100%; */
+  /* max-width: 700px; */
 }
 
 .aboutme-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 327px;
+  width: 100%;
   text-align: center;
   background-image: url('images/about-me-mobile.png'), url('images/about-me-mobile_1.png');
   background-repeat: no-repeat;
@@ -403,11 +514,19 @@ ul {
 }
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0 24px;
   background-image: url('./images/Frame.png');
   background-position: 100% 70%;
   background-repeat: no-repeat;
+  width: 100%;
+}
+
+.contact-me {
   width: 327px;
+
 }
 
 .contact-form h2 {
@@ -418,6 +537,7 @@ ul {
   line-height: 52px;
   text-align: center;
   padding: 0 24px;
+  max-width: 462px;
 }
 
 .contact-form hr {
@@ -428,4 +548,98 @@ ul {
   background-color: #42526e;
   color: #42526e;
   margin: 49px auto 24px auto;
+}
+
+.mobile-hide {
+  margin-top: 70px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .about-me {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: center;
+     column-gap: 10px;
+     background-image: url('images/desktop3.png'), url('images/desktop2.png');
+     background-repeat: no-repeat;
+     background-position:  0% 30%,102% 0;
+     background-size: 150px;
+    }
+
+    .aboutme-title {
+      grid-column: 1 / span 3;
+      text-align: center;
+      background-image: none;
+    }
+
+    .aboutme-title h3 {
+     text-align: center;
+    }
+
+    .container-title h4 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .about-container {
+      width: auto;
+      height: auto;
+    }
+
+   .aboutme-title p {
+     width: 850px;
+   }
+
+    .contact-form {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin: 0;
+      padding: 0;
+      background-image: url('images/desktop1.png'), url('images/Framdesktop4.png');
+      background-repeat: no-repeat;
+      background-position:  0% 120%,18% 90%;
+      background-size: 150px;
+    }
+
+    .desktop-hide {
+      display: none;
+    }
+
+    .contact-form hr {
+      display: none;
+    }
+
+    .contact-form h2 {
+      width: 30%;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 52px;
+     color: #172B4D;
+     padding: 0;
+     margin: 7% 0 0 8%;
+    }
+
+    .contact-me {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 70px 0 0 0;
+    }
+
+    .contact-form-btn {
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 0 14px;
+      width: 135px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+  .mobile-hide {
+    display: none;
+  }
 }
