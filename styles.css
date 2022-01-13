@@ -206,7 +206,6 @@ h1 {
     margin: 20px 0 0 0;
   }
 
-
   .primary h1:first-child {
     margin-bottom: 0;
   }
@@ -215,6 +214,7 @@ h1 {
     color: #3cb371;
     margin: 0;
   }
+
   .support {
     margin-top: 0;
     padding: 0 50px 0 50px;
@@ -326,22 +326,22 @@ h1 {
 }
 
 @media screen and (min-width: 992px) {
-  hr{
-    display: none
-   }
 
- .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    grid-gap: 20px;
+    hr{
+     display: none;
+    }
 
-  }
+   .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      grid-gap: 20px;
+    }
 
-  .container {
-    margin: 0;
-    width: auto;
-  }
+    .container {
+      margin: 0;
+      width: auto;
+    }
 
   .grid-container > section {
     text-align: center;
@@ -354,14 +354,11 @@ h1 {
 
   .work-intro h3{
     text-align: center;
+    margin-bottom: 0;
   }
 
   .container-projects-element li {
     font-size: 8px;
-  }
-
-  .work-intro {
-    margin-bottom: 0;
   }
  }
 
@@ -592,7 +589,7 @@ ul {
    padding: 0;
    background-image: url('images/desktop1.png'), url('images/Framdesktop4.png');
    background-repeat: no-repeat;
-   background-position:  0% 120%,18% 90%;
+   background-position: 0% 120%, 18% 90%;
    background-size: 150px;
   }
 
@@ -611,7 +608,7 @@ ul {
    font-weight: bold;
    font-size: 20px;
    line-height: 52px;
-   color: #172B4D;
+   color: #172b4d;
    padding: 0;
    margin: 7% 0 0 8%;
   }
