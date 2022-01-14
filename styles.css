@@ -326,7 +326,7 @@ h1 {
 }
 
 @media screen and (min-width: 992px) {
-  hr{
+  hr {
     display: none;
   }
 
@@ -551,7 +551,7 @@ ul {
     column-gap: 10px;
     background-image: url('images/desktop3.png'), url('images/desktop2.png');
     background-repeat: no-repeat;
-    background-position:  0% 30%,102% 0;
+    background-position: 0% 30%, 102% 0;
     background-size: 150px;
   }
 
