@@ -326,9 +326,9 @@ h1 {
 }
 
 @media screen and (min-width: 992px) {
-    hr{
+  hr{
     display: none;
-    }
+  }
 
   .grid-container {
     display: grid;
@@ -337,10 +337,10 @@ h1 {
     grid-gap: 20px;
   }
 
-    .container {
-      margin: 0;
-      width: auto;
-    }
+  .container {
+    margin: 0;
+    width: auto;
+  }
 
   .grid-container > section {
     text-align: center;
@@ -351,7 +351,7 @@ h1 {
     text-align: center;
   }
 
-  .work-intro h3{
+  .work-intro h3 {
     text-align: center;
     margin-bottom: 0;
   }
@@ -359,7 +359,7 @@ h1 {
   .container-projects-element li {
     font-size: 8px;
   }
- }
+}
 
 .about-me {
   display: grid;
@@ -516,7 +516,6 @@ ul {
 
 .contact-me {
   width: 327px;
-
 }
 
 .contact-form h2 {
@@ -546,89 +545,89 @@ ul {
 
 @media screen and (min-width: 992px) {
   .about-me {
-   display: grid;
-   grid-template-columns: auto auto auto;
-   justify-content: center;
-   column-gap: 10px;
-   background-image: url('images/desktop3.png'), url('images/desktop2.png');
-   background-repeat: no-repeat;
-   background-position:  0% 30%,102% 0;
-   background-size: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 10px;
+    background-image: url('images/desktop3.png'), url('images/desktop2.png');
+    background-repeat: no-repeat;
+    background-position:  0% 30%,102% 0;
+    background-size: 150px;
   }
 
   .aboutme-title {
-   grid-column: 1 / span 3;
-   text-align: center;
-   background-image: none;
+    grid-column: 1 / span 3;
+    text-align: center;
+    background-image: none;
   }
 
   .aboutme-title h3 {
-   text-align: center;
+    text-align: center;
   }
 
   .container-title h4 {
-   margin-top: 0;
-   font-size: 20px;
+    margin-top: 0;
+    font-size: 20px;
   }
 
   .about-container {
-   width: auto;
-   height: auto;
+    width: auto;
+    height: auto;
   }
 
   .aboutme-title p {
-   width: 850px;
+    width: 850px;
   }
 
   .contact-form {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   margin: 0;
-   padding: 0;
-   background-image: url('images/desktop1.png'), url('images/Framdesktop4.png');
-   background-repeat: no-repeat;
-   background-position: 0% 120%, 18% 90%;
-   background-size: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/desktop1.png'), url('images/Framdesktop4.png');
+    background-repeat: no-repeat;
+    background-position: 0% 120%, 18% 90%;
+    background-size: 150px;
   }
 
   .desktop-hide {
-   display: none;
+    display: none;
   }
 
   .contact-form hr {
-   display: none;
+    display: none;
   }
 
   .contact-form h2 {
-   width: 30%;
-   font-family: 'Inter', sans-serif;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 20px;
-   line-height: 52px;
-   color: #172b4d;
-   padding: 0;
-   margin: 7% 0 0 8%;
+    width: 30%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 52px;
+    color: #172b4d;
+    padding: 0;
+    margin: 7% 0 0 8%;
   }
 
   .contact-me {
-   display: flex;
-   flex-direction: column;
-   width: 50%;
-   margin: 70px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 70px 0 0 0;
   }
 
   .contact-form-btn {
-   display: flex;
-   align-items: flex-start;
-   margin: 0 0 0 14px;
-   width: 135px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 0 14px;
+    width: 135px;
   }
 }
 
 @media screen and (max-width: 991px) {
   .mobile-hide {
-   display: none;
+    display: none;
   }
 }
