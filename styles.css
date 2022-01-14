@@ -399,7 +399,7 @@ h1 {
   }
 
   .container-btn:hover {
-    box-shadow: 0px 8px 16px 0px #36B37F3D;
+    box-shadow: 0 8px 16px 0 #36b37f3d;
   }
 }
 
