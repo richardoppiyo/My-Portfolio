@@ -255,6 +255,20 @@ h1 {
   grid-gap: 10px;
   margin: auto;
   justify-content: center;
+  animation-name: slidein;
+  animation-duration: 2s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: auto;
+    width: 100%;
+  }
 }
 
 .work-intro {
@@ -341,6 +355,8 @@ h1 {
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
+  box-shadow: none;
+  transition: box-shadow 2s;
 }
 
 @media screen and (min-width: 992px) {
@@ -380,6 +396,10 @@ h1 {
 
   .container-projects-element li {
     font-size: 8px;
+  }
+
+  .container-btn:hover {
+    box-shadow: 0 8px 16px 0 #36b37f3d;
   }
 }
 
