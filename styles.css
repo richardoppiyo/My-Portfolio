@@ -256,7 +256,7 @@ h1 {
   margin: auto;
   justify-content: center;
   animation-name: slidein;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 @keyframes slidein {
