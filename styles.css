@@ -51,7 +51,6 @@ footer a {
 
 .container-title h4 {
   display: flex;
-  margin: 20px auto auto auto;
   height: 57px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -114,6 +113,15 @@ h1 {
 .social-media {
   display: flex;
   justify-content: center;
+}
+
+.desktop-social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.desktop-social-media i {
+  font-size: 0.78em;
 }
 
 .item-image {
@@ -185,6 +193,10 @@ h1 {
     flex-direction: column;
   }
 
+  .social-media {
+    display: none;
+  }
+
   .app-header {
     display: none;
   }
@@ -232,20 +244,26 @@ h1 {
   .desktop-show {
     display: none;
   }
+
+  .desktop-social-media {
+    display: none !important;
+  }
 }
 
 .grid-container {
   display: grid;
   grid-gap: 10px;
+  margin: auto;
+  justify-content: center;
 }
 
 .work-intro {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   min-width: 327px;
   text-align: center;
   align-items: center;
-  margin: 0 20px 0 48px;
 }
 
 .grid-container h3 {
@@ -261,10 +279,11 @@ h1 {
   flex-direction: column;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  margin: 15px 0 0 20px;
+  justify-content: center;
+  /* margin: 15px 0 0 20px; */
   font-size: 30px;
   align-items: center;
-  align-content: space-around;
+  align-content: center;
   width: 327px;
   min-height: 200px;
 }
@@ -346,6 +365,10 @@ h1 {
     text-align: center;
   }
 
+  .work-intro br {
+    display: none;
+  }
+
   .work-intro {
     grid-column: 1 / span 3;
     text-align: center;
@@ -378,7 +401,7 @@ h1 {
 }
 
 .aboutme-title h3 {
-  margin: 30px 5px 20px 5px;
+  margin: 30px 10px 20px 10px;
   display: flex;
   height: 48px;
   font-family: 'Inter', sans-serif;
@@ -439,7 +462,7 @@ ul {
   height: 352px;
   width: 327px;
   padding: 25px;
-  margin-top: 15px;
+  margin: 15px auto 0 auto;
 }
 
 .container-projects-skill {
@@ -511,7 +534,6 @@ ul {
   background-image: url('./images/Frame.png');
   background-position: 100% 70%;
   background-repeat: no-repeat;
-  width: 100%;
 }
 
 .contact-me {
@@ -553,6 +575,7 @@ ul {
     background-repeat: no-repeat;
     background-position: 0% 30%, 102% 0;
     background-size: 150px;
+    margin-top: 130px;
   }
 
   .aboutme-title {
@@ -576,7 +599,7 @@ ul {
   }
 
   .aboutme-title p {
-    width: 850px;
+    width: 750px;
   }
 
   .contact-form {
