@@ -17,9 +17,11 @@
 
 👤 **Richard Opiyo**
 
+- Portfolio: (https://richardoppiyo.github.io/My-Portfolio/)
 - GitHub: [@richardoppiyo](https://github.com/richardopiyo)
 - Twitter: [@blessed_ricky](https://twitter.com/blessedricky)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/richardoppiyo)
+
 
 
 ## To show your support, kindly
