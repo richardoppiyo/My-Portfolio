@@ -420,7 +420,7 @@ h1 {
   width: 100%;
   text-align: center;
   background-image: url('../My-Portfolio/images/about-me-mobile.png'),
-    url('../My-Portfolio/images/about-me-mobile_1.png');
+  url('../My-Portfolio/images/about-me-mobile_1.png');
   background-repeat: no-repeat;
   background-position: left bottom, right top;
 }
