@@ -421,6 +421,7 @@ h1 {
   text-align: center;
   background-image: url('./images/about-me-mobile.png'),
     url('./images/about-me-mobile_1.png');
+
   background-repeat: no-repeat;
   background-position: left bottom, right top;
 }
