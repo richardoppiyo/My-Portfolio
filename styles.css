@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.welcome,
+.humb {
+  text-decoration: none;
+}
+
 hr {
   display: flex;
   height: 4px;
@@ -414,7 +419,7 @@ h1 {
   align-items: center;
   width: 100%;
   text-align: center;
-  background-image: url('images/about-me-mobile.png'), url('images/about-me-mobile_1.png');
+  background-image: url('../My-Portfolio/images/about-me-mobile.png');
   background-repeat: no-repeat;
   background-position: left bottom, right top;
 }
