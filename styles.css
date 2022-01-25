@@ -2,9 +2,16 @@ body {
   margin: 0;
 }
 
-.welcome,
-.humb {
+.welcome {
   text-decoration: none;
+}
+
+.humb {
+  margin-top: 20px;
+}
+
+.app-header nav {
+  margin-top: 9px;
 }
 
 hr {
@@ -718,6 +725,21 @@ ul {
 
 .humb-cancel-visible {
   display: flex;
-  margin-top: 20px;
   text-decoration: none;
+}
+
+.app-header-hide {
+  position: absolute;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 450px;
+  z-index: 20;
+  border-radius: 0 0 30px 30px;
+}
+
+.app-header a {
+  margin: 10px 35px 0 0;
+}
+#hiden-image {
+  margin-top: 20px 30px ;
 }
