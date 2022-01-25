@@ -19,8 +19,8 @@ function close() {
   closeButton.classList.remove('humb-cancel-visible');
 }
 
-btn.addEventListener('click',display);
-closeButton.addEventListener('click',close);
+btn.addEventListener('click', display);
+closeButton.addEventListener('click', close);
 toclose.forEach((item) => {
   item.addEventListener('click', close);
 });
