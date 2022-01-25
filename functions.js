@@ -1,11 +1,7 @@
 const btn = document.querySelector('.humb');
 const navLink = document.querySelector('#app-header-menu');
-
 const closeButton = document.querySelector('#humb-cancelor');
-
 const toclose = document.querySelectorAll('.nav-link');
-
-
 
 function display() {
   navLink.classList.add('app-header-menu-visible');
@@ -23,14 +19,12 @@ function close() {
   closeButton.classList.remove('humb-cancel-visible');
 }
 
-
-btn.addEventListener("click", function () {
+btn.addEventListener('click', function () {
   display();
 });
-closeButton.addEventListener("click", function () {
+closeButton.addEventListener('click', function () {
   close();
 });
-
 toclose.forEach((item) => {
-  item.addEventListener("click", close);
+  item.addEventListener('click', close);
 });
