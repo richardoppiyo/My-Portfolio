@@ -10,10 +10,6 @@ body {
   margin-top: 20px;
 }
 
-.app-header nav {
-  margin-top: 9px;
-}
-
 hr {
   display: flex;
   height: 4px;
@@ -52,6 +48,7 @@ footer a {
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
+  margin: 10px 35px 0 0;
 }
 
 .app-header {
@@ -737,9 +734,6 @@ ul {
   border-radius: 0 0 30px 30px;
 }
 
-.app-header a {
-  margin: 10px 35px 0 0;
-}
-#hiden-image {
-  margin-top: 20px 30px ;
+.app-header nav {
+  margin-top: 9px;
 }
