@@ -33,9 +33,17 @@
   <body>
     <div class="app-wrap">
       <header class="app-header">
-        <a href="#" class="welcome">Welcome</a>
+        <a href="#" id="welcome" class="welcome">Welcome</a>
+        <div id="app-header-menu" class="app-header-menu">
+          <ul>
+            <li><a href="#work-intro-info" class="nav-link">Portfolio</a></li>
+            <li><a href="#about-me-info" class="nav-link">About</a></li>
+            <li><a href="#contact-form-info" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
         <nav>
           <a class="humb" href="#"><i class="fas fa-bars"></i></a>
+          <a class="humb-cancel" id="humb-cancelor" href="#"><img src="images/iconcancel.png" alt=""> </a>
         </nav>
       </header>
 
@@ -81,7 +89,7 @@
       </section>
     </div>
 
-    <section class="grid-container">
+    <section id="work-intro-info" class="grid-container">
       <section class="work-intro">
         <h3>
           My Recent <br />
@@ -241,7 +249,7 @@
       </section>
     </section>
 
-    <section class="about-me">
+    <section id="about-me-info" class="about-me">
       <section class="aboutme-title">
         <h3>About Me</h3>
         <p>
@@ -289,7 +297,7 @@
         </div>
       </section>
 
-      <section class="about-container">
+      <section  class="about-container">
         <img src="images/icon-skills.png" alt="" />
         <div class="container-title">
           <h4>Skills</h4>
@@ -310,7 +318,7 @@
       </section>
     </section>
 
-    <section class="contact-form">
+    <section id="contact-form-info" class="contact-form">
       <h2>
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
@@ -372,5 +380,8 @@
         <a href="#"><i class="fab fa-angellist social"></i></a>
       </div>
     </footer>
+
+
+    <script type="text/javascript" src="functions.js" charset="utf-8"></script>
   </body>
 </html>

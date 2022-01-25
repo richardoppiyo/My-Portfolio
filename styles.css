@@ -2,10 +2,55 @@ body {
   margin: 0;
 }
 
+.humb-cancel {
+  display: none;
+  justify-content: flex-end;
+}
+
+.app-header-menu {
+  display: none;
+  left: 0;
+  width: inherit;
+}
+
+.app-header-menu li{
+  margin: 10px 10px;
+}
+
+.app-header-menu li a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 44px;
+  color: #3A4A42;
+  padding: 10px;
+}
+
+.app-header-menu-visible  {
+  display: flex !important;
+}
+
+.welcome-invisible {
+  display: none;
+}
+
+.humb-invisible{
+  display: none !important;
+}
+
+.humb-cancel-visible {
+ display: flex;
+ margin-top: 20px;
+ text-decoration: none;
+}
+
 .welcome,
 .humb {
   text-decoration: none;
 }
+
 
 hr {
   display: flex;
@@ -49,7 +94,6 @@ footer a {
 
 .app-header {
   display: flex;
-  align-items: center;
   justify-content: space-around;
   max-width: 940px;
 }
