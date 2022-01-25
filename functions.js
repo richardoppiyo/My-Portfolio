@@ -100,25 +100,49 @@ const container = document.querySelector("#container-div");
 projectList.forEach((item) => {
   console.log(item);
   console.log(container);
+
+
+  const content = `
+   <section id="container">
+      <div class="container-image">
+        <img class="item-image" src="${item.image}" alt="ueab-university" />
+      </div>
+      <div class="container-title">
+        <h4>
+          ${item.name} <br/>
+          ${item.description}
+        </h4>
+      </div>
+      <div class="container-projects">
+        <ul class="container-projects-element">
+          <li>${item.technologies.tech1}</li>
+          <li>${item.technologies.tech2}</li>
+          <li>${item.technologies.tech3}</li>
+          <li>${item.technologies.tech4}</li>
+        </ul>
+      </div>
+      <button class="container-btn" type="button" name="button">
+        See Project
+      </button>
+    </section> `
+
+  // const cardElement1 = document.createElement("div");
+  // container.appendChild(cardElement1);
+  // cardElement1.classList.add("container-image");
+  // cardElement1.innerHTML.src = "images/icon-languages.png";
+  //
+  //
+  //
+  // const cardElement2 = document.createElement("div");
+  // container.appendChild(cardElement2);
+  // cardElement2.classList.add("container-title");
+  // cardElement2.innerHTML = "<h4> hello</h4>";
+  //
+  // const cardElement3 = document.createElement("div");
+  // container.appendChild(cardElement3);
+  // cardElement3.classList.add("container-projects");
+  // cardElement2.innerHTML = "<ul>hi</ul>";
+
   // container.classList.add('container');
-  const cardElement1 = document.createElement("div");
-  container.appendChild(cardElement1);
-  cardElement1.classList.add("container-image");
-  cardElement1.innerHTML.src = "images/icon-languages.png";
-  // cardElement1.img.src = item[];
-
-  //cardElement1.innerHTML = "<img src="" alt=""/>";
-
-  const cardElement2 = document.createElement("div");
-  container.appendChild(cardElement2);
-  cardElement2.classList.add("container-title");
-  cardElement2.innerHTML = "<h4> hello</h4>";
-
-  const cardElement3 = document.createElement("div");
-  container.appendChild(cardElement3);
-  cardElement3.classList.add("container-projects");
-  cardElement2.innerHTML = "<ul>hi</ul>";
-
-  // container.classList.add('container');
-  container.appendChild.innerHTML = cardElement1;
+  container.innerHTML += content;
 });
