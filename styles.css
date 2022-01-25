@@ -58,7 +58,7 @@ footer a {
 }
 
 .container-title h4 {
-  display: flex;
+  /* display: flex; */
   height: 57px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -352,6 +352,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   padding: 12px;
+  margin: 15px auto 20px auto;
   margin-bottom: 15px;
   min-height: 40px;
   width: 122px;
@@ -365,6 +366,7 @@ h1 {
   line-height: 20px;
   box-shadow: none;
   transition: box-shadow 2s;
+
 }
 
 @media screen and (min-width: 992px) {
@@ -738,8 +740,18 @@ ul {
 }
 
 #container-div {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 20px;
+
+}
+
+@media screen and (min-width: 991px) {
+  #container-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 40px 140px 0 190px;
+    row-gap: 20px;
+    column-gap: 10px;
+  }
+
 }

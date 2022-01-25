@@ -91,6 +91,34 @@ const projectList = [
     "link to source":
       "https://github.com/microverse-students/palindrome-richardoppiyo",
   },
+  {
+    name: "Multi-Post Stories 4",
+    description: "Gain+Glory",
+    image: "images/ueab.png",
+    technologies: {
+      tech1: "Ruby on rails",
+      tech2: "CSS",
+      tech3: "JavaScript",
+      tech4: "Html",
+    },
+    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to source":
+      "https://github.com/microverse-students/palindrome-richardoppiyo",
+  },
+  {
+    name: "Multi-Post Stories 4",
+    description: "Gain+Glory",
+    image: "images/ueab.png",
+    technologies: {
+      tech1: "Ruby on rails",
+      tech2: "CSS",
+      tech3: "JavaScript",
+      tech4: "Html",
+    },
+    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to source":
+      "https://github.com/microverse-students/palindrome-richardoppiyo",
+  }
 ];
 
 // To get the empty section
@@ -98,9 +126,6 @@ const container = document.querySelector("#container-div");
 
 // To loop through my object elements
 projectList.forEach((item) => {
-  console.log(item);
-  console.log(container);
-
 
   const content = `
    <section id="container">
@@ -126,23 +151,5 @@ projectList.forEach((item) => {
       </button>
     </section> `
 
-  // const cardElement1 = document.createElement("div");
-  // container.appendChild(cardElement1);
-  // cardElement1.classList.add("container-image");
-  // cardElement1.innerHTML.src = "images/icon-languages.png";
-  //
-  //
-  //
-  // const cardElement2 = document.createElement("div");
-  // container.appendChild(cardElement2);
-  // cardElement2.classList.add("container-title");
-  // cardElement2.innerHTML = "<h4> hello</h4>";
-  //
-  // const cardElement3 = document.createElement("div");
-  // container.appendChild(cardElement3);
-  // cardElement3.classList.add("container-projects");
-  // cardElement2.innerHTML = "<ul>hi</ul>";
-
-  // container.classList.add('container');
   container.innerHTML += content;
 });
