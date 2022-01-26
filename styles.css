@@ -756,6 +756,109 @@ ul {
 }
 
 /* css for mobile menu pop-up */
-.mobile-pop-up {
+.mobile-pop-up-invisible {
   display: none;
+}
+
+.mobile-pop-up-visible {
+  display: flex;
+}
+
+
+.mobile-pop-up {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+  align-content: center;
+  width: 327px;
+  min-height: 200px;
+  margin: 20px;
+}
+
+.mobile-button-pop-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 100%;
+}
+
+.mobile-pop-up-item-image {
+  margin: 20px;
+}
+
+.mobile-pop-up-container-image {
+  width: 90%;
+  height: 252px;
+  background: #ebf0ee;
+  margin: 20px;
+}
+
+.mobile-pop-up-container-title h2 {
+  height: 120px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0 10px 30px 20px;
+}
+
+.mobile-pop-up-container-projects {
+  display: flex;
+  min-height: 40px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.mobile-pop-up-container-projects-element {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: flex-start;
+  min-width: 45px;
+}
+
+.mobile-pop-up-text {
+  height: 320px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+  margin: 0 10px 30px 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.mobile-pop-up-container-btn {
+  display: flex;
+  flex-flow: row;
+  padding-left: 20px;
+  min-height: 40px;
+  width: 150px;
+  border-radius: 4px;
+  background: #36b37f;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  box-shadow: none;
+  transition: box-shadow 2s;
+}
+
+.mobile-pop-up-container-btn:first-child {
+  margin: 15px 2px 20px 16px;
+}
+
+.mobile-pop-up-container-btn:last-child {
+  margin: 15px 16px 20px 2px;
 }

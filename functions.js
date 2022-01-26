@@ -146,10 +146,50 @@ projectList.forEach((item) => {
           <li>${item.technologies.tech4}</li>
         </ul>
       </div>
-      <button class="container-btn" type="button" name="button">
+      <button onclick='CreateModal()' class="container-btn" type="button" name="button">
         See Project
       </button>
     </section> `
 
   container.innerHTML += content;
 });
+
+
+const containerPopUp = document.querySelector("#mobile-pop-up");
+
+function CreateModal(){
+
+ // containerPopUp.classList.add("mobile-pop-up-visible");
+
+  const  content =
+    `<div class="mobile-pop-up-container-image">
+      <img class="mobile-pop-up-item-image" src="" alt="ueab-university" />
+      </div>
+      <div class="mobile-pop-up-container-title">
+        <h2>Keeping track of hundreds of components</h2>
+      </div>
+      <div class="mobile-pop-up-container-projects">
+        <ul class="container-projects-element">
+          <li>Trial A</li>
+          <li>Trial B</li>
+          <li>Trial C</li>
+          <li>Trial D</li>
+        </ul>
+      </div>
+      <div class="mobile-pop-up-text">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+      </div>
+      <div class="mobile-button-pop-up">
+        <button class="mobile-pop-up-container-btn" type="button" name="button">
+          See Live
+        <i class="fab fa-github fa-sm social"></i></button>
+        <button class="mobile-pop-up-container-btn" type="button" name="button">
+          See Source
+        <i class="fab fa-github fa-sm social"></i></button>
+    </div>`
+
+
+   containerPopUp.innerHTML = content;
+}
+
+// console.log(containerPopUp);
