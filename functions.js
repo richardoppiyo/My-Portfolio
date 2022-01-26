@@ -201,6 +201,6 @@ const CreateModal = () => {
 };
 
 // to close the modal
-function closeModal() {
+const closeModal = () => {
   containerPopUp.style.display = 'none';
 }
