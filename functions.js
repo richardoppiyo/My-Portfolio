@@ -1,38 +1,38 @@
-const btn = document.querySelector(".humb");
-const navLink = document.querySelector("#app-header-menu");
-const closeButton = document.querySelector("#humb-cancelor");
-const toclose = document.querySelectorAll(".nav-link");
-const menuheader = document.querySelector("#app-header-info");
+const btn = document.querySelector('.humb');
+const navLink = document.querySelector('#app-header-menu');
+const closeButton = document.querySelector('#humb-cancelor');
+const toclose = document.querySelectorAll('.nav-link');
+const menuheader = document.querySelector('#app-header-info');
 
 
 
 // To open the menu bar
 function display() {
-  navLink.classList.add("app-header-menu-visible");
-  const menu = document.querySelector("#welcome");
-  menu.classList.add("welcome-invisible");
-  btn.classList.add("humb-invisible");
-  closeButton.classList.add("humb-cancel-visible");
-  menuheader.classList.add("app-header-hide");
+  navLink.classList.add('app-header-menu-visible');
+  const menu = document.querySelector('#welcome');
+  menu.classList.add('welcome-invisible');
+  btn.classList.add('humb-invisible');
+  closeButton.classList.add('humb-cancel-visible');
+  menuheader.classList.add('app-header-hide');
 }
 
 // To close the menu bar
 function close() {
-  navLink.classList.remove("app-header-menu-visible");
-  const menu = document.querySelector("#welcome");
-  menu.classList.remove("welcome-invisible");
-  btn.classList.remove("humb-invisible");
-  closeButton.classList.remove("humb-cancel-visible");
-  menuheader.classList.remove("app-header-hide");
+  navLink.classList.remove('app-header-menu-visible');
+  const menu = document.querySelector('#welcome');
+  menu.classList.remove('welcome-invisible');
+  btn.classList.remove('humb-invisible');
+  closeButton.classList.remove('humb-cancel-visible');
+  menuheader.classList.remove('app-header-hide');
 }
 
 // Adding event Listener humburger menu and the close icon
-btn.addEventListener("click", display);
-closeButton.addEventListener("click", close);
+btn.addEventListener('click', display);
+closeButton.addEventListener('click', close);
 
 // Iterates over the list menu anchor tags and listens to click event
 toclose.forEach((item) => {
-  item.addEventListener("click", close);
+  item.addEventListener('click', close);
 });
 
 // creating the Javascript Object to hold the card information
