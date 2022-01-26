@@ -202,5 +202,5 @@ function CreateModal() {
 
 // to close the modal
 function closeModal() {
-  containerPopUp.style.display ='none';
+  containerPopUp.style.display = 'none';
 }
