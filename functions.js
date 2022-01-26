@@ -121,10 +121,10 @@ const projectList = [
   }
 ];
 
-// To get the empty section
+// To get the empty section to populate with the JS object
 const container = document.querySelector("#container-div");
 
-// To loop through my object elements
+// To loop through my object elements and add them to the html section
 projectList.forEach((item) => {
 
   const content = `

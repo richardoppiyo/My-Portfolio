@@ -739,9 +739,9 @@ ul {
   margin-top: 9px;
 }
 
+/* To style the dynamically created div for Portfolios */
 #container-div {
   margin: 20px;
-
 }
 
 @media screen and (min-width: 991px) {
@@ -753,5 +753,9 @@ ul {
     row-gap: 20px;
     column-gap: 10px;
   }
+}
 
+/* css for mobile menu pop-up */
+.mobile-pop-up {
+  display: none;
 }
