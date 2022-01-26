@@ -152,17 +152,17 @@ projectList.forEach((item) => {
           <li>${item.technologies.tech4}</li>
         </ul>
       </div>
-      <button onclick=${'CreateModal()'} class="container-btn" type="button" name="button">
+      <button onclick=${'createModalIgnored()'} class="container-btn" type="button" name="button">
         See Project
       </button>
     </section>`;
   container.innerHTML += content;
 });
 
-/* eslint no-unused-vars: "error" */
+/* eslint no-unused-vars: ["error", { "varsIgnorePattern": "[iI]gnored" }] */
 
 // handles the modal on button click
-const CreateModal = () => {
+const createModalIgnored = () => {
   containerPopUp.style.display = 'block';
   const content = `<div class="mobile-pop-up-container-image">
         <a onclick=${'closeModal()'} id="modal-hiden-image">
@@ -205,6 +205,6 @@ const CreateModal = () => {
 /* eslint no-unused-vars: ["error", { "args": "all" }] */
 
 // to close the modal
-const closeModal = (item) => {
+const closeModal = () => {
   containerPopUp.style.display = 'none';
 };
