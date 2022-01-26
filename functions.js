@@ -164,12 +164,18 @@ projectList.forEach((item) => {
   container.innerHTML += content;
 });
 
+// let destructured = [];
+// projectList.forEach((item) => {
+//   destructured.push(item);
+// });
+
 
 // handles the modal on button click
-function CreateModal(item) {
+let CreateModal = (destructured) => {
 
+  console.log(destructured);
+  let destItem = [...projectList];
   containerPopUp.style.display = "block";
-
   const  content =
     `
     <div class="mobile-pop-up-container-image">
@@ -178,22 +184,22 @@ function CreateModal(item) {
       <img class="mobile-pop-up-item-image" src="" alt="ueab-university" />
       </div>
       <div class="mobile-pop-up-container-title">
-        <h2>Keeping track of hundreds of components</h2>
+        <h2>Hello World</h2>
         <div class="hidden-mobile-button-pop-up">
           <button class="mobile-pop-up-container-btn" type="button" name="button">
             See Live
-          <i class="fab fa-github fa-sm social"></i></button>
+          <i class="fab fa-github fa-sm modal-social"></i></button>
           <button class="mobile-pop-up-container-btn" type="button" name="button">
             See Source
-          <i class="fab fa-github fa-sm social"></i></button>
+          <i class="fab fa-github fa-sm modal-social"></i></button>
         </div>
       </div>
       <div class="mobile-pop-up-container-projects">
         <ul class="mobile-pop-up-container-projects-element">
-          <li>Trial A</li>
-          <li>Trial B</li>
-          <li>Trial C</li>
-          <li>Trial D</li>
+          <li>Ruby on rails</li>
+          <li>css</li>
+          <li>Javascript</li>
+          <li>Html</li>
         </ul>
       </div>
       <div class="mobile-pop-up-text">
@@ -202,10 +208,10 @@ function CreateModal(item) {
       <div class="mobile-button-pop-up">
         <button class="mobile-pop-up-container-btn" type="button" name="button">
           See Live
-        <i class="fab fa-github fa-sm social"></i></button>
+        <i class="fab fa-github fa-sm modal-social"></i></button>
         <button class="mobile-pop-up-container-btn" type="button" name="button">
           See Source
-        <i class="fab fa-github fa-sm social"></i></button>
+        <i class="fab fa-github fa-sm modal-social"></i></button>
     </div>`
 
    containerPopUp.innerHTML = content;

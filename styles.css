@@ -888,6 +888,9 @@ ul {
   display: none;
 }
 
+.modal-social {
+  margin: 0 10px 0 10px;
+}
 @media screen and (min-width: 991px) {
   #mobile-pop-up {
     position: fixed;
@@ -983,7 +986,7 @@ ul {
     align-content: flex-end;
     margin-right: 0;
     margin-top: 10px;
-    margin-left: 85%;
+    margin-left: 91%;
     background: none;
     color: #fff;
     text-decoration: none;
