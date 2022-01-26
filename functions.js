@@ -4,8 +4,6 @@ const closeButton = document.querySelector('#humb-cancelor');
 const toclose = document.querySelectorAll('.nav-link');
 const menuheader = document.querySelector('#app-header-info');
 
-
-
 // To open the menu bar
 function display() {
   navLink.classList.add('app-header-menu-visible');
@@ -38,102 +36,102 @@ toclose.forEach((item) => {
 // creating the Javascript Object to hold the card information
 const projectList = [
   {
-    title: "No.1 Keeping track of hundreds of components",
-    name: "Multi-Post Stories 1",
-    description: "Gain+Glory",
-    image: "images/ueab.png",
+    title: 'No.1 Keeping track of hundreds of components',
+    name: 'Multi-Post Stories 1',
+    description: 'Gain+Glory',
+    image: 'images/ueab.png',
     technologies: {
-      tech1: "Ruby on rails",
-      tech2: "CSS",
-      tech3: "JavaScript",
-      tech4: "Html",
+      tech1: 'Ruby on rails',
+      tech2: 'CSS',
+      tech3: 'JavaScript',
+      tech4: 'Html',
     },
-    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to live version": 'https://demo.dewcis.com/ueab/',
     "link to source":
-      "https://github.com/microverse-students/palindrome-richardoppiyo",
+      'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    title: "No.2 Keeping track of hundreds of components",
-    name: "Multi-Post Stories 2",
-    description: "Gain+Glory",
-    image: "images/ueab.png",
+    title: 'No.2 Keeping track of hundreds of components',
+    name: 'Multi-Post Stories 2',
+    description: 'Gain+Glory',
+    image: 'images/ueab.png',
     technologies: {
-      tech1: "Ruby on rails",
-      tech2: "CSS",
-      tech3: "JavaScript",
-      tech4: "Html",
+      tech1: 'Ruby on rails',
+      tech2: 'CSS',
+      tech3: 'JavaScript',
+      tech4: 'Html',
     },
-    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to live version": 'https://demo.dewcis.com/ueab/',
     "link to source":
-      "https://github.com/microverse-students/palindrome-richardoppiyo",
+      'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    title: "No.3 Keeping track of hundreds of components",
-    name: "Multi-Post Stories 3",
-    description: "Gain+Glory",
-    image: "images/ueab.png",
+    title: 'No.3 Keeping track of hundreds of components',
+    name: 'Multi-Post Stories 3',
+    description: 'Gain+Glory',
+    image: 'images/ueab.png',
     technologies: {
-      tech1: "Ruby on rails",
-      tech2: "CSS",
-      tech3: "JavaScript",
-      tech4: "Html",
+      tech1: 'Ruby on rails',
+      tech2: 'CSS",
+      tech3: 'JavaScript',
+      tech4: 'Html',
     },
-    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to live version": 'https://demo.dewcis.com/ueab/',
     "link to source":
-      "https://github.com/microverse-students/palindrome-richardoppiyo",
+      'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    title: "No.4 Keeping track of hundreds of components",
-    name: "Multi-Post Stories 4",
-    description: "Gain+Glory",
-    image: "images/ueab.png",
+    title: 'No.4 Keeping track of hundreds of components',
+    name: 'Multi-Post Stories 4',
+    description: 'Gain+Glory',
+    image: 'images/ueab.png',
     technologies: {
-      tech1: "Ruby on rails",
-      tech2: "CSS",
-      tech3: "JavaScript",
-      tech4: "Html",
+      tech1: 'Ruby on rails',
+      tech2: 'CSS',
+      tech3: 'JavaScript',
+      tech4: 'Html',
     },
-    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to live version": 'https://demo.dewcis.com/ueab/',
     "link to source":
-      "https://github.com/microverse-students/palindrome-richardoppiyo",
+      'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    title: "No.5 Keeping track of hundreds of components",
-    name: "Multi-Post Stories 4",
-    description: "Gain+Glory",
-    image: "images/ueab.png",
+    title: 'No.5 Keeping track of hundreds of components',
+    name: 'Multi-Post Stories 4',
+    description: 'Gain+Glory',
+    image: 'images/ueab.png',
     technologies: {
-      tech1: "Ruby on rails",
-      tech2: "CSS",
-      tech3: "JavaScript",
-      tech4: "Html",
+      tech1: 'Ruby on rails',
+      tech2: 'CSS',
+      tech3: 'JavaScript',
+      tech4: 'Html',
     },
-    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to live version": 'https://demo.dewcis.com/ueab/',
     "link to source":
-      "https://github.com/microverse-students/palindrome-richardoppiyo",
+      'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    title: "No.6 Keeping track of hundreds of components",
-    name: "Multi-Post Stories 4",
-    description: "Gain+Glory",
-    image: "images/ueab.png",
+    title: 'No.6 Keeping track of hundreds of components',
+    name: 'Multi-Post Stories 4',
+    description: 'Gain+Glory',
+    image: 'images/ueab.png',
     technologies: {
-      tech1: "Ruby on rails",
-      tech2: "CSS",
-      tech3: "JavaScript",
-      tech4: "Html",
+      tech1: 'Ruby on rails',
+      tech2: 'CSS',
+      tech3: 'JavaScript',
+      tech4: 'Html',
     },
-    "link to live version": "https://demo.dewcis.com/ueab/",
+    "link to live version": 'https://demo.dewcis.com/ueab/',
     "link to source":
-      "https://github.com/microverse-students/palindrome-richardoppiyo",
+      'https://github.com/microverse-students/palindrome-richardoppiyo',
   }
 ];
 
 
-const containerPopUp = document.querySelector("#mobile-pop-up");
+const containerPopUp = document.querySelector('#mobile-pop-up');
 
 // To get the empty section to populate with the JS object
-const container = document.querySelector("#container-div");
+const container = document.querySelector('#container-div');
 
 // To loop through my object elements and add them to the html section
 projectList.forEach((item) => {
@@ -219,5 +217,5 @@ let CreateModal = (destructured) => {
 
 // to close the modal
 function closeModal (){
-  containerPopUp.style.display = "none";
+  containerPopUp.style.display = 'none';
 }
