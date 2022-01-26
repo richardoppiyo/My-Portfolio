@@ -203,4 +203,4 @@ const CreateModal = () => {
 // to close the modal
 const closeModal = () => {
   containerPopUp.style.display = 'none';
-}
+};
