@@ -159,7 +159,7 @@ projectList.forEach((item) => {
   container.innerHTML += content;
 });
 
-/*eslint no-unused-vars: "error"*/
+/* eslint no-unused-vars: "error" */
 
 // handles the modal on button click
 const CreateModal = () => {
@@ -202,7 +202,7 @@ const CreateModal = () => {
   containerPopUp.innerHTML = content;
 };
 
-/*eslint no-unused-vars: ["error", { "args": "all" }]*/
+/* eslint no-unused-vars: ["error", { "args": "all" }] */
 
 // to close the modal
 const closeModal = (item) => {
