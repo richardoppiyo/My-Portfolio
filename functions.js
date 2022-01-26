@@ -159,8 +159,9 @@ projectList.forEach((item) => {
   container.innerHTML += content;
 });
 
-// handles the modal on button click
 /*eslint no-unused-vars: "error"*/
+
+// handles the modal on button click
 const CreateModal = () => {
   containerPopUp.style.display = 'block';
   const content = `<div class="mobile-pop-up-container-image">
@@ -201,8 +202,9 @@ const CreateModal = () => {
   containerPopUp.innerHTML = content;
 };
 
+/*eslint no-unused-vars: ["error", { "args": "all" }]*/
+
 // to close the modal
-/*eslint no-unused-vars: "error"*/
-const closeModal = () => {
+const closeModal = (item) => {
   containerPopUp.style.display = 'none';
 };
