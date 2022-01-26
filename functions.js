@@ -197,10 +197,10 @@ function CreateModal() {
           See Source
         <i class="fab fa-github fa-sm modal-social"></i></button>
     </div>`;
- containerPopUp.innerHTML = content;
+  containerPopUp.innerHTML = content;
 }
 
 // to close the modal
-function closeModal (){
- containerPopUp.style.display='none';
+function closeModal() {
+  containerPopUp.style.display ='none';
 }
