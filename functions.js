@@ -205,6 +205,6 @@ const createModalIgnored = () => {
 /* eslint no-unused-vars: ["error", { "args": "all" }] */
 
 // to close the modal
-const closeModal = () => {
+function closeModal() {
   containerPopUp.style.display = 'none';
 };
