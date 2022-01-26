@@ -46,8 +46,8 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    "link to live version": 'https://demo.dewcis.com/ueab/',
-    "link to source":
+    'link to live version': 'https://demo.dewcis.com/ueab/',
+    'link to source':
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
@@ -61,8 +61,8 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    "link to live version": 'https://demo.dewcis.com/ueab/',
-    "link to source":
+    'link to live version': 'https://demo.dewcis.com/ueab/',
+    'link to source':
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
@@ -76,8 +76,8 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    "link to live version": 'https://demo.dewcis.com/ueab/',
-    "link to source":
+    'link to live version': 'https://demo.dewcis.com/ueab/',
+    'link to source':
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
@@ -91,8 +91,8 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    "link to live version": 'https://demo.dewcis.com/ueab/',
-    "link to source":
+    'link to live version': 'https://demo.dewcis.com/ueab/',
+    'link to source':
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
@@ -106,8 +106,8 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    "link to live version": 'https://demo.dewcis.com/ueab/',
-    "link to source":
+    'link to live version': 'https://demo.dewcis.com/ueab/',
+    'link to source':
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
@@ -121,11 +121,10 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    "link to live version": 'https://demo.dewcis.com/ueab/',
-    "link to source":
+    'link to live version': 'https://demo.dewcis.com/ueab/',
+    'link to source':
       'https://github.com/microverse-students/palindrome-richardoppiyo',
-  }
-];
+  }; ];
 
 const containerPopUp = document.querySelector('#mobile-pop-up');
 
@@ -157,28 +156,20 @@ projectList.forEach((item) => {
         See Project
       </button>
     </section> `
-
   container.innerHTML += content;
 });
 
-// let destructured = [];
-// projectList.forEach((item) => {
-//   destructured.push(item);
-// });
-
-
 // handles the modal on button click
-let CreateModal = (destructured) => {
+const CreateModal = () => {
 
   console.log(destructured);
   let destItem = [...projectList];
   containerPopUp.style.display = "block";
   const  content =
-    `
-    <div class="mobile-pop-up-container-image">
+    `<div class="mobile-pop-up-container-image">
         <a onclick=${'closeModal()'} id="modal-hiden-image" >
         <img src="images/iconcancel.png" alt="" /></a>
-      <img class="mobile-pop-up-item-image" src="" alt="ueab-university" />
+      <img class="mobile-pop-up-item-image" src="" alt="ueab-university"/>
       </div>
       <div class="mobile-pop-up-container-title">
         <h2>Hello World</h2>
@@ -210,7 +201,6 @@ let CreateModal = (destructured) => {
           See Source
         <i class="fab fa-github fa-sm modal-social"></i></button>
     </div>`
-
    containerPopUp.innerHTML = content;
 }
 
