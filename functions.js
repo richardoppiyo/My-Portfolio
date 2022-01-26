@@ -202,9 +202,7 @@ const createModalIgnored = () => {
   containerPopUp.innerHTML = content;
 };
 
-/* eslint no-unused-vars: ["error", { "args": "all" }] */
-
 // to close the modal
-function closeModal() {
+function closeModal() { // eslint-disable-line no-unused-vars
   containerPopUp.style.display = 'none';
-};
+}
