@@ -155,20 +155,17 @@ projectList.forEach((item) => {
       <button onclick=${'CreateModal()'} class="container-btn" type="button" name="button">
         See Project
       </button>
-    </section> `
+    </section>`;
   container.innerHTML += content;
 });
 
 // handles the modal on button click
-const CreateModal = () => {
-
-  console.log(destructured);
-  let destItem = [...projectList];
+function CreateModal() {
   containerPopUp.style.display = "block";
   const  content =
     `<div class="mobile-pop-up-container-image">
-        <a onclick=${'closeModal()'} id="modal-hiden-image" >
-        <img src="images/iconcancel.png" alt="" /></a>
+        <a onclick=${'closeModal()'} id="modal-hiden-image">
+        <img src="images/iconcancel.png" alt=""/></a>
       <img class="mobile-pop-up-item-image" src="" alt="ueab-university"/>
       </div>
       <div class="mobile-pop-up-container-title">
