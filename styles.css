@@ -366,7 +366,6 @@ h1 {
   line-height: 20px;
   box-shadow: none;
   transition: box-shadow 2s;
-
 }
 
 @media screen and (min-width: 992px) {
@@ -891,6 +890,7 @@ ul {
 .modal-social {
   margin: 0 10px 0 10px;
 }
+
 @media screen and (min-width: 991px) {
   #mobile-pop-up {
     position: fixed;
@@ -907,7 +907,7 @@ ul {
     align-items: center;
     align-content: center;
     width: 60%;
-    margin-left: 250px
+    margin-left: 250px;
   }
 
   .hidden-mobile-button-pop-up {
@@ -916,8 +916,8 @@ ul {
     top: 46%;
     right: 5%;
     flex-direction: row;
-    justify-content:flex-end;
-    align-content:flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
     width: 50%;
   }
 
@@ -991,5 +991,4 @@ ul {
     color: #fff;
     text-decoration: none;
   }
-
 }

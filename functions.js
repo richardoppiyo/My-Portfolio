@@ -72,7 +72,7 @@ const projectList = [
     image: 'images/ueab.png',
     technologies: {
       tech1: 'Ruby on rails',
-      tech2: 'CSS",
+      tech2: 'CSS',
       tech3: 'JavaScript',
       tech4: 'Html',
     },
@@ -126,7 +126,6 @@ const projectList = [
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   }
 ];
-
 
 const containerPopUp = document.querySelector('#mobile-pop-up');
 
