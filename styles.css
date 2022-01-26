@@ -748,7 +748,6 @@ ul {
   #container-div {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* background-color: #2196F3; */
     padding: 40px 140px 0 190px;
     row-gap: 20px;
     column-gap: 10px;
@@ -756,17 +755,14 @@ ul {
 }
 
 /* css for mobile menu pop-up */
-.mobile-pop-up-invisible {
+#mobile-pop-up {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  background-color: #fff;
   display: none;
-}
-
-.mobile-pop-up-visible {
-  display: flex;
-}
-
-
-.mobile-pop-up {
-  display: flex;
   flex-direction: column;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -775,7 +771,7 @@ ul {
   align-items: center;
   align-content: center;
   width: 327px;
-  min-height: 200px;
+  max-height: 600px;
   margin: 20px;
 }
 
@@ -799,7 +795,6 @@ ul {
 }
 
 .mobile-pop-up-container-title h2 {
-  height: 120px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   text-align: left;
@@ -807,6 +802,7 @@ ul {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  width: 70%;
   margin: 0 10px 30px 20px;
 }
 
@@ -815,19 +811,17 @@ ul {
   min-height: 40px;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-around;
+  margin-left: 10px;
 }
 
 .mobile-pop-up-container-projects-element {
   display: flex;
   flex-direction: row;
-  text-align: center;
   align-items: flex-start;
   min-width: 45px;
 }
 
 .mobile-pop-up-text {
-  height: 320px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   text-align: left;
@@ -861,4 +855,138 @@ ul {
 
 .mobile-pop-up-container-btn:last-child {
   margin: 15px 16px 20px 2px;
+}
+
+#modal-hiden-image {
+  display: flex;
+  align-content: flex-end;
+  margin-right: 0;
+  margin-top: 10px;
+  margin-left: 85%;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile-pop-up-container-projects-element li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #3a4a42;
+  background-color: #ebf0ee;
+  min-height: 20px;
+  min-width: 10px;
+  border-radius: 4px;
+  margin: 0 5px 0 5px;
+  padding: 6px 10px 1px 10px;
+}
+
+.hidden-mobile-button-pop-up {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  #mobile-pop-up {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    margin-left: 250px
+  }
+
+  .hidden-mobile-button-pop-up {
+    display: flex !important;
+    position: absolute;
+    top: 46%;
+    right: 5%;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-content:flex-end;
+    width: 50%;
+  }
+
+  .mobile-button-pop-up {
+    display: none;
+  }
+
+  .mobile-pop-up-container-image {
+    width: 90%;
+    background: #ebf0ee;
+  }
+
+  .mobile-pop-up-container-title h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    font-size: 32px;
+    width: 54% !important;
+    color: #172b4d;
+  }
+
+  .mobile-pop-up-container-projects-element {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: flex-start;
+  }
+
+  .mobile-pop-up-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .mobile-pop-up-container-btn {
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    min-height: 40px;
+    border-radius: 4px;
+    background: #36b37f;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: none;
+    transition: box-shadow 2s;
+  }
+
+  .mobile-pop-up-container-btn:first-child {
+    margin: 15px 2px 20px 16px;
+  }
+
+  .mobile-pop-up-container-btn:last-child {
+    margin: 15px 16px 20px 2px;
+  }
+
+  #modal-hiden-image {
+    display: flex;
+    align-content: flex-end;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-left: 85%;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+  }
+
 }

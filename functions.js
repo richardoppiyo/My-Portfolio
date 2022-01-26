@@ -4,6 +4,8 @@ const closeButton = document.querySelector("#humb-cancelor");
 const toclose = document.querySelectorAll(".nav-link");
 const menuheader = document.querySelector("#app-header-info");
 
+
+
 // To open the menu bar
 function display() {
   navLink.classList.add("app-header-menu-visible");
@@ -36,6 +38,7 @@ toclose.forEach((item) => {
 // creating the Javascript Object to hold the card information
 const projectList = [
   {
+    title: "No.1 Keeping track of hundreds of components",
     name: "Multi-Post Stories 1",
     description: "Gain+Glory",
     image: "images/ueab.png",
@@ -50,6 +53,7 @@ const projectList = [
       "https://github.com/microverse-students/palindrome-richardoppiyo",
   },
   {
+    title: "No.2 Keeping track of hundreds of components",
     name: "Multi-Post Stories 2",
     description: "Gain+Glory",
     image: "images/ueab.png",
@@ -64,6 +68,7 @@ const projectList = [
       "https://github.com/microverse-students/palindrome-richardoppiyo",
   },
   {
+    title: "No.3 Keeping track of hundreds of components",
     name: "Multi-Post Stories 3",
     description: "Gain+Glory",
     image: "images/ueab.png",
@@ -78,6 +83,7 @@ const projectList = [
       "https://github.com/microverse-students/palindrome-richardoppiyo",
   },
   {
+    title: "No.4 Keeping track of hundreds of components",
     name: "Multi-Post Stories 4",
     description: "Gain+Glory",
     image: "images/ueab.png",
@@ -92,6 +98,7 @@ const projectList = [
       "https://github.com/microverse-students/palindrome-richardoppiyo",
   },
   {
+    title: "No.5 Keeping track of hundreds of components",
     name: "Multi-Post Stories 4",
     description: "Gain+Glory",
     image: "images/ueab.png",
@@ -106,6 +113,7 @@ const projectList = [
       "https://github.com/microverse-students/palindrome-richardoppiyo",
   },
   {
+    title: "No.6 Keeping track of hundreds of components",
     name: "Multi-Post Stories 4",
     description: "Gain+Glory",
     image: "images/ueab.png",
@@ -121,12 +129,14 @@ const projectList = [
   }
 ];
 
+
+const containerPopUp = document.querySelector("#mobile-pop-up");
+
 // To get the empty section to populate with the JS object
 const container = document.querySelector("#container-div");
 
 // To loop through my object elements and add them to the html section
 projectList.forEach((item) => {
-
   const content = `
    <section id="container">
       <div class="container-image">
@@ -146,7 +156,7 @@ projectList.forEach((item) => {
           <li>${item.technologies.tech4}</li>
         </ul>
       </div>
-      <button onclick='CreateModal()' class="container-btn" type="button" name="button">
+      <button onclick=${'CreateModal()'} class="container-btn" type="button" name="button">
         See Project
       </button>
     </section> `
@@ -155,21 +165,31 @@ projectList.forEach((item) => {
 });
 
 
-const containerPopUp = document.querySelector("#mobile-pop-up");
+// handles the modal on button click
+function CreateModal(item) {
 
-function CreateModal(){
-
- // containerPopUp.classList.add("mobile-pop-up-visible");
+  containerPopUp.style.display = "block";
 
   const  content =
-    `<div class="mobile-pop-up-container-image">
+    `
+    <div class="mobile-pop-up-container-image">
+        <a onclick=${'closeModal()'} id="modal-hiden-image" >
+        <img src="images/iconcancel.png" alt="" /></a>
       <img class="mobile-pop-up-item-image" src="" alt="ueab-university" />
       </div>
       <div class="mobile-pop-up-container-title">
         <h2>Keeping track of hundreds of components</h2>
+        <div class="hidden-mobile-button-pop-up">
+          <button class="mobile-pop-up-container-btn" type="button" name="button">
+            See Live
+          <i class="fab fa-github fa-sm social"></i></button>
+          <button class="mobile-pop-up-container-btn" type="button" name="button">
+            See Source
+          <i class="fab fa-github fa-sm social"></i></button>
+        </div>
       </div>
       <div class="mobile-pop-up-container-projects">
-        <ul class="container-projects-element">
+        <ul class="mobile-pop-up-container-projects-element">
           <li>Trial A</li>
           <li>Trial B</li>
           <li>Trial C</li>
@@ -188,8 +208,10 @@ function CreateModal(){
         <i class="fab fa-github fa-sm social"></i></button>
     </div>`
 
-
    containerPopUp.innerHTML = content;
 }
 
-// console.log(containerPopUp);
+// to close the modal
+function closeModal (){
+  containerPopUp.style.display = "none";
+}
