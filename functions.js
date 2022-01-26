@@ -161,9 +161,8 @@ projectList.forEach((item) => {
 
 // handles the modal on button click
 function CreateModal() {
-  containerPopUp.style.display = "block";
-  const  content =
-    `<div class="mobile-pop-up-container-image">
+  containerPopUp.style.display = 'block';
+  const content = `<div class="mobile-pop-up-container-image">
         <a onclick=${'closeModal()'} id="modal-hiden-image">
         <img src="images/iconcancel.png" alt=""/></a>
       <img class="mobile-pop-up-item-image" src="" alt="ueab-university"/>
@@ -197,11 +196,11 @@ function CreateModal() {
         <button class="mobile-pop-up-container-btn" type="button" name="button">
           See Source
         <i class="fab fa-github fa-sm modal-social"></i></button>
-    </div>`
-   containerPopUp.innerHTML = content;
+    </div>`;
+ containerPopUp.innerHTML = content;
 }
 
 // to close the modal
 function closeModal (){
-  containerPopUp.style.display = 'none';
+ containerPopUp.style.display='none';
 }
