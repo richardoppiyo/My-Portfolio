@@ -124,7 +124,7 @@ const projectList = [
     'link to live version': 'https://demo.dewcis.com/ueab/',
     'link to source':
       'https://github.com/microverse-students/palindrome-richardoppiyo',
-  }; ];
+  }];
 
 const containerPopUp = document.querySelector('#mobile-pop-up');
 
