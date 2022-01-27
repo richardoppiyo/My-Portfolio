@@ -121,8 +121,8 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    'link to live version': 'https://demo.dewcis.com/ueab/',
-    'link to source':
+    livelink: 'https://demo.dewcis.com/ueab/',
+    sourcelink:
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   }];
 
@@ -152,32 +152,34 @@ projectList.forEach((item) => {
           <li>${item.technologies.tech4}</li>
         </ul>
       </div>
-      <button onclick=${'createModalIgnored()'} class="container-btn" type="button" name="button">
+      <button onclick=${'createModal()'} class="container-btn" type="button" name="button">
         See Project
       </button>
     </section>`;
   container.innerHTML += content;
 });
 
-/* eslint no-unused-vars: ["error", { "varsIgnorePattern": "[iI]gnored" }] */
-
 // handles the modal on button click
-const createModalIgnored = () => {
+const  richard = projectList[0];
+const {title} = richard;
+
+let createModal = (title) => { // eslint-disable-line no-unused-vars
+  console.log(richard.livelink);
   containerPopUp.style.display = 'block';
   const content = `<div class="mobile-pop-up-container-image">
         <a onclick=${'closeModal()'} id="modal-hiden-image">
         <img src="images/iconcancel.png" alt=""/></a>
-      <img class="mobile-pop-up-item-image" src="" alt="ueab-university"/>
+      <img class="mobile-pop-up-item-image" src="${richard.image}" alt="ueab-university"/>
       </div>
       <div class="mobile-pop-up-container-title">
-        <h2>Hello World</h2>
+        <h2>${richard.title}</h2>
         <div class="hidden-mobile-button-pop-up">
           <button class="mobile-pop-up-container-btn" type="button" name="button">
-            See Live
-          <i class="fab fa-github fa-sm modal-social"></i></button>
+            <a href="./index.html">See Live
+          <i class="fab fa-github fa-sm modal-social"></i></a></button>
           <button class="mobile-pop-up-container-btn" type="button" name="button">
-            See Source
-          <i class="fab fa-github fa-sm modal-social"></i></button>
+            <a href="./index.html">See Source
+          <i class="fab fa-github fa-sm modal-social"></i></a></button>
         </div>
       </div>
       <div class="mobile-pop-up-container-projects">
@@ -193,11 +195,11 @@ const createModalIgnored = () => {
       </div>
       <div class="mobile-button-pop-up">
         <button class="mobile-pop-up-container-btn" type="button" name="button">
-          See Live
-        <i class="fab fa-github fa-sm modal-social"></i></button>
+          <a href="./index.html">See Live
+        <i class="fab fa-github fa-sm modal-social"></i></a></button>
         <button class="mobile-pop-up-container-btn" type="button" name="button">
-          See Source
-        <i class="fab fa-github fa-sm modal-social"></i></button>
+          <a href="./index.html">See Source
+        <i class="fab fa-github fa-sm modal-social"></i></a></button>
     </div>`;
   containerPopUp.innerHTML = content;
 };
