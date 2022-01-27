@@ -166,14 +166,13 @@ projectList.forEach((item) => {
 });
 
 // handles the modal on button click
-const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
-
-  const portfolioArr = projectList.filter(function(portfolio) {
-  	return portfolio.id == portfolioId;
+const createModal = (portfolioId) => {
+  const portfolioArr = projectList.filter( (portfolio) => {
+    return portfolio.id == portfolioId;
   });
   const [portfolioObj] = portfolioArr;
 
-  containerPopUp.style.display='block';
+  containerPopUp.style.display = 'block';
   const content = `<div class="mobile-pop-up-container-image">
         <a onclick="closeModal()" id="modal-hiden-image">
         <img src="images/iconcancel.png" alt=""/></a>
