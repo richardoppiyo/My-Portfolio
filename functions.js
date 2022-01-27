@@ -36,6 +36,7 @@ toclose.forEach((item) => {
 // creating the Javascript Object to hold the card information
 const projectList = [
   {
+    id: 1,
     title: 'No.1 Keeping track of hundreds of components',
     name: 'Multi-Post Stories 1',
     description: 'Gain+Glory',
@@ -51,6 +52,7 @@ const projectList = [
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
+    id: 2,
     title: 'No.2 Keeping track of hundreds of components',
     name: 'Multi-Post Stories 2',
     description: 'Gain+Glory',
@@ -66,6 +68,7 @@ const projectList = [
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
+    id: 3,
     title: 'No.3 Keeping track of hundreds of components',
     name: 'Multi-Post Stories 3',
     description: 'Gain+Glory',
@@ -81,6 +84,7 @@ const projectList = [
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
+    id: 4,
     title: 'No.4 Keeping track of hundreds of components',
     name: 'Multi-Post Stories 4',
     description: 'Gain+Glory',
@@ -96,6 +100,7 @@ const projectList = [
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
+    id: 5,
     title: 'No.5 Keeping track of hundreds of components',
     name: 'Multi-Post Stories 4',
     description: 'Gain+Glory',
@@ -111,6 +116,7 @@ const projectList = [
       'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
+    id: 6,
     title: 'No.6 Keeping track of hundreds of components',
     name: 'Multi-Post Stories 4',
     description: 'Gain+Glory',
@@ -152,7 +158,7 @@ projectList.forEach((item) => {
           <li>${item.technologies.tech4}</li>
         </ul>
       </div>
-      <button onclick=${'createModal()'} class="container-btn" type="button" name="button">
+      <button onclick="createModal(\'${item.id}\')" class="container-btn" type="button" name="button">
         See Project
       </button>
     </section>`;
@@ -162,15 +168,21 @@ projectList.forEach((item) => {
 // handles the modal on button click
 const myItem = projectList[0];
 
-const createModal = () => { // eslint-disable-line no-unused-vars
+const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
+
+  let portfolioArr =  projectList.filter(function(portfolio) {
+  	return portfolio.id == portfolioId;
+  });
+  const [ portfolioObj ] = portfolioArr;
+
   containerPopUp.style.display = 'block';
   const content = `<div class="mobile-pop-up-container-image">
-        <a onclick=${'closeModal()'} id="modal-hiden-image">
+        <a onclick="closeModal()" id="modal-hiden-image">
         <img src="images/iconcancel.png" alt=""/></a>
-      <img class="mobile-pop-up-item-image" src="${myItem.image}" alt="ueab-university"/>
+      <img class="mobile-pop-up-item-image" src="${portfolioObj.image}" alt="ueab-university"/>
       </div>
       <div class="mobile-pop-up-container-title">
-        <h2>${myItem.title}</h2>
+        <h2>${portfolioObj.title}</h2>
         <div class="hidden-mobile-button-pop-up">
           <button class="mobile-pop-up-container-btn" type="button" name="button">
             <a href="./index.html">See Live
