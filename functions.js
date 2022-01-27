@@ -163,7 +163,7 @@ projectList.forEach((item) => {
 const myItem = projectList[0];
 const { title } = myItem;
 
-const createModal = (item) => { // "no-unused-vars": "off"
+const createModal = (item) => { // eslint-disable-line no-unused-vars // "no-unused-vars": "off"
   containerPopUp.style.display = 'block';
   const content = `<div class="mobile-pop-up-container-image">
         <a onclick=${'closeModal()'} id="modal-hiden-image">
