@@ -158,7 +158,7 @@ projectList.forEach((item) => {
           <li>${item.technologies.tech4}</li>
         </ul>
       </div>
-      <button onclick="createModal(\'${item.id}\')" class="container-btn" type="button" name="button">
+      <button onclick="createModal(${item.id})" class="container-btn" type="button" name="button">
         See Project
       </button>
     </section>`;
@@ -167,9 +167,7 @@ projectList.forEach((item) => {
 
 // handles the modal on button click
 const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
-  const portfolioArr = projectList.filter((portfolio) => {
-    return portfolio.id == portfolioId;
-  });
+  const portfolioArr = projectList.filter( portfolio => { return portfolio.id == portfolioId; });
   const [portfolioObj] = portfolioArr;
 
   containerPopUp.style.display = 'block';
