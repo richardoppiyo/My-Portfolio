@@ -239,21 +239,21 @@ const userName = formEl.querySelector('#full-name');
 const userEmail = formEl.querySelector('#email');
 const userMesssage = formEl.querySelector('#message');
 
-const saveData = (item) => {
-   let formData = {
-       name : userName.value,
-       email : userEmail.value,
-       message: userMesssage.value
-     };
-   localStorage.setItem('sessionData', JSON.stringify(formData));
-}
+const saveData = () => {
+  const formData = {
+    name: userName.value,
+    email: userEmail.value,
+    message: userMesssage.value,
+  };
+  localStorage.setItem('sessionData', JSON.stringify(formData));
+};
 
-userName.addEventListener('input',saveData);
-userEmail.addEventListener('input',saveData);
-userMesssage.addEventListener('input',saveData);
+userName.addEventListener('input', saveData);
+userEmail.addEventListener('input', saveData);
+userMesssage.addEventListener('input', saveData);
 
 window.addEventListener('load', () => {
-  const serializeFormData =  JSON.parse(localStorage.getItem('sessionData'));
+  const serializeFormData = JSON.parse(localStorage.getItem('sessionData'));
   userName.value = serializeFormData.name;
   userEmail.value = serializeFormData.email;
   userMesssage.value = serializeFormData.message;
