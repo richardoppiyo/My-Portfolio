@@ -160,19 +160,18 @@ projectList.forEach((item) => {
 });
 
 // handles the modal on button click
-const  richard = projectList[0];
-const {title} = richard;
+const myItem = projectList[0];
+const { title } = myItem;
 
-let createModal = (title) => { // eslint-disable-line no-unused-vars
-  console.log(richard.livelink);
+const createModal = (item) => { // eslint-disable-line no-unused-vars
   containerPopUp.style.display = 'block';
   const content = `<div class="mobile-pop-up-container-image">
         <a onclick=${'closeModal()'} id="modal-hiden-image">
         <img src="images/iconcancel.png" alt=""/></a>
-      <img class="mobile-pop-up-item-image" src="${richard.image}" alt="ueab-university"/>
+      <img class="mobile-pop-up-item-image" src="${myItem.image}" alt="ueab-university"/>
       </div>
       <div class="mobile-pop-up-container-title">
-        <h2>${richard.title}</h2>
+        <h2>${myItem.title}</h2>
         <div class="hidden-mobile-button-pop-up">
           <button class="mobile-pop-up-container-btn" type="button" name="button">
             <a href="./index.html">See Live
