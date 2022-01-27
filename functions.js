@@ -3,6 +3,7 @@ const navLink = document.querySelector('#app-header-menu');
 const closeButton = document.querySelector('#humb-cancelor');
 const toclose = document.querySelectorAll('.nav-link');
 const menuheader = document.querySelector('#app-header-info');
+let contactMeForm = document.querySelector('.contact-me');
 
 // To open the menu bar
 function display() {
@@ -212,4 +213,29 @@ const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
 // to close the modal
 function closeModal() { // eslint-disable-line no-unused-vars
   containerPopUp.style.display = 'none';
+}
+
+//This function validates the email on the formspree
+function ValidateEmail(inputText) {
+    var mailformat = ".*[A-Z]+.*";
+    if(!inputText.match(mailformat))
+    {
+    document.getElementById('email-fail-id').style.display = 'none';
+    return true;
+    }
+    else
+    {
+    document.getElementById('email-fail-id').style.display = 'flex';
+    return false;
+ }
+}
+
+function myFunction(e){
+  if(!ValidateEmail(e.value)){
+    document.querySelector(".contact-form-btn").setAttribute("disabled","true");
+
+  }else{
+    document.querySelector(".contact-form-btn").removeAttribute("disabled","true");
+
+  }
 }
