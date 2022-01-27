@@ -214,21 +214,19 @@ function closeModal() { // eslint-disable-line no-unused-vars
   containerPopUp.style.display = 'none';
 }
 
-//This function validates the email on the formspree
+// This function validates the email on the formspree
 function ValidateEmail(inputText) {
-  var mailformat = ".*[A-Z]+.*";
-  if(!inputText.match(mailformat)){
+  let mailformat = '.*[A-Z]+.*';
+  if (!inputText.match(mailformat)) {
     document.getElementById('email-fail-id').style.display = 'none';
     return true;
   }
-  else {
-    document.getElementById('email-fail-id').style.display = 'flex';
-    return false;
-  }
+  document.getElementById('email-fail-id').style.display = 'flex';
+  return false;
 }
 
-function myFunction(e){
-  if(!ValidateEmail(e.value)){
+function myFunction(e){ // eslint-disable-line no-unused-vars
+  if (!ValidateEmail(e.value)) {
     document.querySelector('.contact-form-btn').setAttribute('disabled', 'true');
   } else {
     document.querySelector('.contact-form-btn').removeAttribute('disabled', 'true');
