@@ -216,7 +216,7 @@ function closeModal() { // eslint-disable-line no-unused-vars
 
 // This function validates the email on the formspree
 function ValidateEmail(inputText) {
-  let mailformat = '.*[A-Z]+.*';
+  const mailformat = '.*[A-Z]+.*';
   if (!inputText.match(mailformat)) {
     document.getElementById('email-fail-id').style.display = 'none';
     return true;
@@ -225,7 +225,7 @@ function ValidateEmail(inputText) {
   return false;
 }
 
-function myFunction(e){ // eslint-disable-line no-unused-vars
+function myFunction(e) { // eslint-disable-line no-unused-vars
   if (!ValidateEmail(e.value)) {
     document.querySelector('.contact-form-btn').setAttribute('disabled', 'true');
   } else {
