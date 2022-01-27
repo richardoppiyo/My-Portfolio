@@ -471,6 +471,14 @@ h1 {
   margin: 40px auto;
 }
 
+.email-fail {
+  display: none;
+  align-items: center;
+  position: relative;
+  margin-left: 75px;
+  color: red;
+}
+
 ul {
   display: flex;
   flex-direction: column;
@@ -555,8 +563,6 @@ ul {
 }
 
 .contact-form {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 0 24px;
   background-image: url('./images/Frame.png');
@@ -674,6 +680,11 @@ ul {
     align-items: flex-start;
     margin: 0 0 0 14px;
     width: 135px;
+  }
+
+  .email-fail {
+    margin-top: 380px;
+    margin-left: 0;
   }
 }
 
@@ -995,4 +1006,11 @@ ul {
     color: #fff;
     text-decoration: none;
   }
+}
+
+#email-fail-id {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
 }
