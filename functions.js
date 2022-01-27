@@ -161,7 +161,6 @@ projectList.forEach((item) => {
 
 // handles the modal on button click
 const myItem = projectList[0];
-const { title } = myItem;
 
 const createModal = () => { // eslint-disable-line no-unused-vars
   containerPopUp.style.display = 'block';
