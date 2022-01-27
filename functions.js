@@ -166,8 +166,8 @@ projectList.forEach((item) => {
 });
 
 // handles the modal on button click
-const createModal = (portfolioId) => {
-  const portfolioArr = projectList.filter( (portfolio) => {
+const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
+  const portfolioArr = projectList.filter((portfolio) => {
     return portfolio.id == portfolioId;
   });
   const [portfolioObj] = portfolioArr;
