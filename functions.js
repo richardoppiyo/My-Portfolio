@@ -79,7 +79,7 @@ const projectList = [
       tech2: 'PLSQL',
       tech3: 'JavaScript',
       tech4: 'Html & CSS',
-      tech4: 'Java',
+      tech5: 'Java',
     },
     livelink: 'https://demo.dewcis.com/babcock/',
     sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
@@ -181,7 +181,7 @@ const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
         <h2>${portfolioObj.title}</h2>
         <div class="hidden-mobile-button-pop-up">
           <button class="mobile-pop-up-container-btn" type="button" name="button">
-            <a href="${portfolioObj.livelink}" target="_blank">See Live
+            <a href="${portfolioObj.livelink}" target="_blank" rel="noopener noreferrer">See Live
           <i class="fab fa-github fa-sm modal-social"></i></a></button>
           <button class="mobile-pop-up-container-btn" type="button" name="button">
             <a href="./index.html" target="_blank">See Source
