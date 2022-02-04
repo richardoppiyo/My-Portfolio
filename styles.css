@@ -796,7 +796,6 @@ ul {
 .mobile-pop-up-item-image {
   width: 100%;
   height: 100%;
-  /* margin: auto; */
 }
 
 .mobile-pop-up-container-image {
@@ -1003,10 +1002,10 @@ ul {
     text-decoration: none;
   }
 
-#email-fail-id {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  text-align: left;
-  font-weight: 600;
-}
+  #email-fail-id {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+  }
 }
