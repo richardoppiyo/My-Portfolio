@@ -475,7 +475,7 @@ h1 {
   display: none;
   align-items: center;
   position: relative;
-  margin-left: 75px;
+  margin-left: 100px;
   color: red;
 }
 
@@ -565,13 +565,10 @@ ul {
 .contact-form {
   align-items: center;
   padding: 0 24px;
+  margin: 5px auto;
   background-image: url('./images/Frame.png');
   background-position: 100% 70%;
   background-repeat: no-repeat;
-}
-
-.contact-me {
-  width: 327px;
 }
 
 .contact-form h2 {
@@ -582,7 +579,6 @@ ul {
   line-height: 52px;
   text-align: center;
   padding: 0 24px;
-  max-width: 462px;
 }
 
 .contact-form hr {
@@ -785,7 +781,6 @@ ul {
   font-size: 30px;
   align-items: center;
   align-content: center;
-  width: 327px;
   max-height: 600px;
   margin: 20px;
 }
@@ -1006,11 +1001,11 @@ ul {
     color: #fff;
     text-decoration: none;
   }
-}
 
-#email-fail-id {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  text-align: left;
-  font-weight: 600;
+  #email-fail-id {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+  }
 }
