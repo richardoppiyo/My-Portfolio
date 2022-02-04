@@ -37,89 +37,91 @@ toclose.forEach((item) => {
 const projectList = [
   {
     id: 1,
-    title: 'No.1 Keeping track of hundreds of components',
-    name: 'Multi-Post Stories 1',
-    description: 'Gain+Glory',
-    image: 'images/ueab.png',
+    title: 'University of East African Baraton information Mangement System',
+    name: 'University of Baraton',
+    description: 'Management System',
+    detail: 'The system automates most of the processes that you might think of in a University setting. Stusents are able log in to the system and carry out activities like selecting courses that they would have otherwise done manually. Lecturers and the management at large are able to see all student request in addditon to carrrying out adminstrative duties. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
+    image: './images/ueab.png',
     technologies: {
       tech1: 'Ruby on rails',
-      tech2: 'CSS',
+      tech2: 'PLSQL',
       tech3: 'JavaScript',
-      tech4: 'Html',
+      tech4: 'Html & CSS',
     },
-    'link to live version': 'https://demo.dewcis.com/ueab/',
-    'link to source':
-      'https://github.com/microverse-students/palindrome-richardoppiyo',
+    livelink: 'https://demo.dewcis.com/ueab/',
+    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
     id: 2,
-    title: 'No.2 Keeping track of hundreds of components',
-    name: 'Multi-Post Stories 2',
-    description: 'Gain+Glory',
-    image: 'images/ueab.png',
+    title: 'Adventist University of Africa information Mangement System',
+    name: 'Adventist Uni. of Africa',
+    description: 'Management System',
+    detail: 'The system automates most of the processes that you might think of in a University setting. Stusents are able log in to the system and carry out activities like selecting courses that they would have otherwise done manually. Lecturers and the management at large are able to see all student request in addditon to carrrying out adminstrative duties. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
+    image: './images/aua.png',
     technologies: {
       tech1: 'Ruby on rails',
-      tech2: 'CSS',
+      tech2: 'PLSQL',
       tech3: 'JavaScript',
-      tech4: 'Html',
+      tech4: 'Html & CSS',
     },
-    'link to live version': 'https://demo.dewcis.com/ueab/',
-    'link to source':
-      'https://github.com/microverse-students/palindrome-richardoppiyo',
+    livelink: 'https://demo.dewcis.com/aua/',
+    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
     id: 3,
-    title: 'No.3 Keeping track of hundreds of components',
-    name: 'Multi-Post Stories 3',
-    description: 'Gain+Glory',
-    image: 'images/ueab.png',
+    title: 'Babcock University Information Mangement System',
+    name: 'Babcock University',
+    description: 'Management System',
+    detail: 'The system automates most of the processes that you might think of in a University setting. Stusents are able log in to the system and carry out activities like selecting courses that they would have otherwise done manually. Lecturers and the management at large are able to see all student request in addditon to carrrying out adminstrative duties. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
+    image: './images/babcock.png',
     technologies: {
       tech1: 'Ruby on rails',
-      tech2: 'CSS',
+      tech2: 'PLSQL',
       tech3: 'JavaScript',
-      tech4: 'Html',
+      tech4: 'Html & CSS',
+      tech4: 'Java',
     },
-    'link to live version': 'https://demo.dewcis.com/ueab/',
-    'link to source':
-      'https://github.com/microverse-students/palindrome-richardoppiyo',
+    livelink: 'https://demo.dewcis.com/babcock/',
+    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
     id: 4,
-    title: 'No.4 Keeping track of hundreds of components',
-    name: 'Multi-Post Stories 4',
-    description: 'Gain+Glory',
-    image: 'images/ueab.png',
+    title: 'ICEA LION insurance Group',
+    name: 'ICEA LION Insurance',
+    description: 'ERP System',
+    detail: 'The Insurance system is an entreprise resource planning system to manage and intergrate the company\'s financial in respect to travel Insurance. ERP system allows users to book and b The Insurance ERP system allows users to book and b ..The Insurance ERP system allows users to book and buy travel insurance online. Administrators are able to see all the insurance bought and approve them as necessary. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
+    image: './images/icealion.png',
     technologies: {
       tech1: 'Ruby on rails',
-      tech2: 'CSS',
+      tech2: 'PLSQL',
       tech3: 'JavaScript',
-      tech4: 'Html',
+      tech4: 'Html & CSS',
     },
-    'link to live version': 'https://demo.dewcis.com/ueab/',
-    'link to source':
-      'https://github.com/microverse-students/palindrome-richardoppiyo',
+    livelink: 'https://demo.dewcis.com/icealion/icealion',
+    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
     id: 5,
-    title: 'No.5 Keeping track of hundreds of components',
-    name: 'Multi-Post Stories 4',
-    description: 'Gain+Glory',
-    image: 'images/ueab.png',
+    title: 'Heritage Insurance',
+    name: 'Heritage Insurance',
+    description: 'ERP System',
+    detail: 'The Insurance system is an entreprise resource planning system to manage and intergrate the company\'s financial in respect to travel Insurance. ERP system allows users to book and b The Insurance ERP system allows users to book and b ..The Insurance ERP system allows users to book and buy travel insurance online. Administrators are able to see all the insurance bought and approve them as necessary. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
+    image: './images/heritage.png',
     technologies: {
       tech1: 'Ruby on rails',
-      tech2: 'CSS',
+      tech2: 'PLSQL',
       tech3: 'JavaScript',
-      tech4: 'Html',
+      tech4: 'Html & CSS',
     },
-    'link to live version': 'https://demo.dewcis.com/ueab/',
-    'link to source':
-      'https://github.com/microverse-students/palindrome-richardoppiyo',
+    livelink: 'https://demo.dewcis.com/heritage/',
+    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
     id: 6,
-    title: 'No.6 Keeping track of hundreds of components',
-    name: 'Multi-Post Stories 4',
-    description: 'Gain+Glory',
+    title: 'University of East African Baraton information Mangement System',
+    name: 'University of Baraton',
+    description: 'Management System',
+    detail: 'The Insurance system is an entreprise resource planning system to manage and intergrate the company\'s financial in respect to travel Insurance. ERP system allows users to book and b The Insurance ERP system allows users to book and b ..The Insurance ERP system allows users to book and buy travel insurance online. Administrators are able to see all the insurance bought and approve them as necessary. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
     image: 'images/ueab.png',
     technologies: {
       tech1: 'Ruby on rails',
@@ -127,9 +129,8 @@ const projectList = [
       tech3: 'JavaScript',
       tech4: 'Html',
     },
-    livelink: 'https://demo.dewcis.com/ueab/',
-    sourcelink:
-      'https://github.com/microverse-students/palindrome-richardoppiyo',
+    livelink: 'https://demo.dewcis.com/aua/',
+    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   }];
 
 const containerPopUp = document.querySelector('#mobile-pop-up');
@@ -180,30 +181,30 @@ const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
         <h2>${portfolioObj.title}</h2>
         <div class="hidden-mobile-button-pop-up">
           <button class="mobile-pop-up-container-btn" type="button" name="button">
-            <a href="./index.html">See Live
+            <a href="${portfolioObj.livelink}" target="_blank">See Live
           <i class="fab fa-github fa-sm modal-social"></i></a></button>
           <button class="mobile-pop-up-container-btn" type="button" name="button">
-            <a href="./index.html">See Source
+            <a href="./index.html" target="_blank">See Source
           <i class="fab fa-github fa-sm modal-social"></i></a></button>
         </div>
       </div>
       <div class="mobile-pop-up-container-projects">
         <ul class="mobile-pop-up-container-projects-element">
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>Javascript</li>
-          <li>Html</li>
+          <li>${portfolioObj.technologies.tech1}</li>
+          <li>${portfolioObj.technologies.tech2}</li>
+          <li>${portfolioObj.technologies.tech3}</li>
+          <li>${portfolioObj.technologies.tech4}</li>
         </ul>
       </div>
       <div class="mobile-pop-up-text">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+          <p>${portfolioObj.detail}</p>
       </div>
       <div class="mobile-button-pop-up">
         <button class="mobile-pop-up-container-btn" type="button" name="button">
-          <a href="./index.html">See Live
+          <a href="${portfolioObj.livelink}" target="_blank">See Live
         <i class="fab fa-github fa-sm modal-social"></i></a></button>
         <button class="mobile-pop-up-container-btn" type="button" name="button">
-          <a href="./index.html">See Source
+          <a href="./index.html" target="_blank">See Source
         <i class="fab fa-github fa-sm modal-social"></i></a></button>
     </div>`;
   containerPopUp.innerHTML = content;
