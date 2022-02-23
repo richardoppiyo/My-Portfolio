@@ -121,7 +121,7 @@ const projectList = [
     name: 'ICEA LION Insurance',
     description: 'ERP System',
     detail: 'The Insurance system is an entreprise resource planning system to manage and intergrate the company\'s financial in respect to travel Insurance. ERP system allows users to book and b The Insurance ERP system allows users to book and b ..The Insurance ERP system allows users to book and buy travel insurance online. Administrators are able to see all the insurance bought and approve them as necessary. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
-    image: './images/icealion.png',
+    image: './images/icelion.png',
     technologies: {
       tech1: 'Ruby on rails',
       tech2: 'PLSQL',
