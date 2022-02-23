@@ -37,6 +37,37 @@ toclose.forEach((item) => {
 const projectList = [
   {
     id: 1,
+    title: 'Awesome Travels Summit Website ',
+    name: 'Awesome Travels',
+    description: 'A website',
+    detail: 'The Awesome Travel Summit Website give ingormation about the yearly travel agencies summit that hold in different parts of the World. The website is built purely on HTML, CSS AND Vanila JavaScript ',
+    image: './images/awesometravels.png',
+    technologies: {
+      tech1: 'HTML',
+      tech2: 'CSS',
+      tech3: 'JavaScript',
+    },
+    livelink: 'https://richardoppiyo.github.io/awesome-travels/',
+    sourcelink: 'https://github.com/richardoppiyo/awesome-travels',
+  },
+  {
+    id: 2,
+    title: 'Webpack To Do List',
+    name: 'A To Do List',
+    description: 'Web Application',
+    detail: 'This is a simple web application built with webpack bundler that allows a user to add to dos in their schedule. they are able to mark them as complete and finnaly delete them at the end of a given period. The project is heavily powere by  JavaScript',
+    image: './images/to-do-list.png',
+    technologies: {
+      tech1: 'Webpack bundler',
+      tech2: 'HTML',
+      tech3: 'CSS',
+      tech4: 'JavaScript',
+    },
+    livelink: 'https://richardoppiyo.github.io/To_do_list_webpack/dist/',
+    sourcelink: 'https://github.com/richardoppiyo/To_do_list_webpack',
+  },
+  {
+    id: 3,
     title: 'University of East African Baraton information Mangement System',
     name: 'University of Baraton',
     description: 'Management System',
@@ -52,7 +83,7 @@ const projectList = [
     sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    id: 2,
+    id: 4,
     title: 'Adventist University of Africa information Mangement System',
     name: 'Adventist Uni. of Africa',
     description: 'Management System',
@@ -68,7 +99,7 @@ const projectList = [
     sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    id: 3,
+    id: 5,
     title: 'Babcock University Information Mangement System',
     name: 'Babcock University',
     description: 'Management System',
@@ -85,7 +116,7 @@ const projectList = [
     sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   },
   {
-    id: 4,
+    id: 6,
     title: 'ICEA LION insurance Group',
     name: 'ICEA LION Insurance',
     description: 'ERP System',
@@ -98,38 +129,6 @@ const projectList = [
       tech4: 'Html & CSS',
     },
     livelink: 'https://demo.dewcis.com/icealion/icealion',
-    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
-  },
-  {
-    id: 5,
-    title: 'Heritage Insurance',
-    name: 'Heritage Insurance',
-    description: 'ERP System',
-    detail: 'The Insurance system is an entreprise resource planning system to manage and intergrate the company\'s financial in respect to travel Insurance. ERP system allows users to book and b The Insurance ERP system allows users to book and b ..The Insurance ERP system allows users to book and buy travel insurance online. Administrators are able to see all the insurance bought and approve them as necessary. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
-    image: './images/heritage.png',
-    technologies: {
-      tech1: 'Ruby on rails',
-      tech2: 'PLSQL',
-      tech3: 'JavaScript',
-      tech4: 'Html & CSS',
-    },
-    livelink: 'https://demo.dewcis.com/heritage/',
-    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
-  },
-  {
-    id: 6,
-    title: 'University of East African Baraton information Mangement System',
-    name: 'University of Baraton',
-    description: 'Management System',
-    detail: 'The Insurance system is an entreprise resource planning system to manage and intergrate the company\'s financial in respect to travel Insurance. ERP system allows users to book and b The Insurance ERP system allows users to book and b ..The Insurance ERP system allows users to book and buy travel insurance online. Administrators are able to see all the insurance bought and approve them as necessary. The system is built on Java, Javascript, Html & CSS and heavily relies on PLSQL functions and triggers for functionalities',
-    image: 'images/ueab.png',
-    technologies: {
-      tech1: 'Ruby on rails',
-      tech2: 'CSS',
-      tech3: 'JavaScript',
-      tech4: 'Html',
-    },
-    livelink: 'https://demo.dewcis.com/aua/',
     sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
   }];
 
