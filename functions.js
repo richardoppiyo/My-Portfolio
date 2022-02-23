@@ -45,7 +45,7 @@ const projectList = [
     technologies: {
       tech1: 'HTML',
       tech2: 'CSS',
-      tech3: 'JavaScript'
+      tech3: 'JavaScript',
     },
     livelink: 'https://richardoppiyo.github.io/awesome-travels/',
     sourcelink: 'https://github.com/richardoppiyo/awesome-travels',
