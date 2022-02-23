@@ -41,7 +41,7 @@ const projectList = [
     name: 'Awesome Travels',
     description: 'A website',
     detail: 'The Awesome Travel Summit Website give ingormation about the yearly travel agencies summit that hold in different parts of the World. The website is built purely on HTML, CSS AND Vanila JavaScript ',
-    image: './images/ueab.png',
+    image: './images/awesometravels.png',
     technologies: {
       tech1: 'HTML',
       tech2: 'CSS',
@@ -56,7 +56,7 @@ const projectList = [
     name: 'A To Do List',
     description: 'Web Application',
     detail: 'This is a simple web application built with webpack bundler that allows a user to add to dos in their schedule. they are able to mark them as complete and finnaly delete them at the end of a given period. The project is heavily powere by  JavaScript',
-    image: './images/ueab.png',
+    image: './images/to-do-list.png',
     technologies: {
       tech1: 'Webpack bundler',
       tech2: 'HTML',
