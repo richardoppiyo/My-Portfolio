@@ -65,7 +65,7 @@ const projectList = [
       tech4: 'Html & CSS',
     },
     livelink: 'https://demo.dewcis.com/ueab/',
-    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
+    sourcelink: 'https://github.com/richardoppiyo/book-a-lawyer-App-backend',
   },
   {
     id: 3,
@@ -96,7 +96,7 @@ const projectList = [
       tech4: 'Html & CSS',
     },
     livelink: 'https://demo.dewcis.com/aua/',
-    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
+    sourcelink: 'https://github.com/richardoppiyo/book-a-lawyer-App-backend',
   },
   {
     id: 5,
@@ -129,7 +129,7 @@ const projectList = [
       tech5: 'Java',
     },
     livelink: 'https://demo.dewcis.com/babcock/',
-    sourcelink: 'https://github.com/microverse-students/palindrome-richardoppiyo',
+    sourcelink: 'https://github.com/richardoppiyo/book-a-lawyer-App-backend',
   }
   // {
   //   id: 6,
