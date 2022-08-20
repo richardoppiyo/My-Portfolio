@@ -200,7 +200,7 @@ const createModal = (portfolioId) => { // eslint-disable-line no-unused-vars
             <a href="${portfolioObj.livelink}" target="_blank" rel="noopener noreferrer">See Live
           <i class="fab fa-github fa-sm modal-social"></i></a></button>
           <button class="mobile-pop-up-container-btn" type="button" name="button">
-            <a href="./index.html" target="_blank">See Source
+            <a href="${portfolioObj.sourcelink}" target="_blank">See Source
           <i class="fab fa-github fa-sm modal-social"></i></a></button>
         </div>
       </div>
