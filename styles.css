@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.resumebtn {
+  text-decoration: none;
+  color: #fff;
+}
+
 .welcome {
   text-decoration: none;
 }
