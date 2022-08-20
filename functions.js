@@ -37,10 +37,10 @@ toclose.forEach((item) => {
 const projectList = [
   {
     id: 1,
-    title: 'Book a lawyer\s seervices App ',
+    title: 'Book a lawyer\'s services App ',
     name: 'The Lawyer',
     description: 'A React and Rails web app',
-    detail: 'This is an implemetation os a web application for bookin the services of a lawyer. The front end is built on react/redux and backend on Rails.',
+    detail: 'This is an implemetation of a web application for booking the services of a lawyer. The front end is built on react/redux and backend on Rails. The project automates law services. The Application allows an authenticated user to log in to the system, get a list of all available lawyers who can be bookeed for a specified date and time. The lawyers\' bio has the contact details, location, pricing per hour of the lawyer from which a user gets more insights. It also has dedicated pages to see the user\'s reservations and a reserve form. An admin user has the right to add/edit/remove a lawyer from the database and hence can see the Manage tab.',
     image: './images/screenshot.png',
     technologies: {
       tech1: 'Ruby on rails',
@@ -103,7 +103,7 @@ const projectList = [
     title: 'Webpack To Do List',
     name: 'A To Do List',
     description: 'Web Application',
-    detail: 'This is a simple web application built with webpack bundler that allows a user to add to dos in their schedule. they are able to mark them as complete and finnaly delete them at the end of a given period. The project is heavily powere by  JavaScript',
+    detail: 'This is a simple web application built with webpack bundler that allows a user to add to dos on their schedule. The user has the ability to mark the list items depending on their status as complete or incomplete, and they can also delete the items when they deem necessary. The project is heavily powered by JavaScript',
     image: './images/to-do-list.png',
     technologies: {
       tech1: 'Webpack bundler',
